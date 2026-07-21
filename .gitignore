@@ -14,11 +14,10 @@ bin/
 run/
 .minecraft/
 
-.mcreator/
 elements/
 models/
 libs/
-talisman_jackiechan*.mcreator
+
 
 
 gradle/wrapper/gradle-wrapper.jar
