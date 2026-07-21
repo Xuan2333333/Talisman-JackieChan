@@ -1,4 +1,3 @@
-# IDE配置文件
 .idea/
 .eclipse/
 .vscode/
@@ -6,35 +5,33 @@
 *.ipr
 *.iws
 
-# Gradle缓存
 .gradle/
-
-# 编译输出产物
 build/
 out/
 bin/
 
-# Minecraft游戏运行目录
+
 run/
 .minecraft/
 
-# MCreator 缓存与备份
-.mcreator/workspaceBackups/
-.mcreator/userSettings
+.mcreator/
+elements/
+models/
+libs/
+talisman_jackiechan*.mcreator
 
-# 日志文件
+
+gradle/wrapper/gradle-wrapper.jar
+
+
 *.log
 logs/
 cache/
-
-# 编译class、工具jar包
 *.class
 *.jar
-
-# 操作系统文件
-.DS_Store
-Thumbs.db
-
-# 临时文件
 *.tmp
 *.bak
+
+
+.DS_Store
+Thumbs.db
