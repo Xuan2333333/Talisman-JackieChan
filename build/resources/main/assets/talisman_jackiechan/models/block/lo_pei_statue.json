@@ -1,9 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/pldx",
-  "textures": {
-    "all": "talisman_jackiechan:block/lp",
-    "particle": "talisman_jackiechan:block/lp",
-    "0": "talisman_jackiechan:block/lp"
-  },
-  "render_type": "solid"
-}

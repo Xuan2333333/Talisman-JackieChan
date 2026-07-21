@@ -1,7 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/shanzi",
-  "textures": {
-    "0": "talisman_jackiechan:block/sz",
-    "particle": "talisman_jackiechan:item/sz"
-  }
-}

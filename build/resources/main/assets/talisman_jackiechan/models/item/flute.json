@@ -1,7 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/dizi",
-  "textures": {
-    "1": "talisman_jackiechan:block/dizi",
-    "particle": "talisman_jackiechan:item/3"
-  }
-}

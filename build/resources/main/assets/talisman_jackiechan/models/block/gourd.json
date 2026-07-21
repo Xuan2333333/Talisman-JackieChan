@@ -1,9 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/hulu",
-  "textures": {
-    "all": "talisman_jackiechan:block/hl",
-    "particle": "talisman_jackiechan:block/hl",
-    "0": "talisman_jackiechan:block/hl"
-  },
-  "render_type": "solid"
-}

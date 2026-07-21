@@ -1,7 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/xiangban",
-  "textures": {
-    "0": "talisman_jackiechan:block/xbe",
-    "particle": "minecraft:item/bamboo_raft"
-  }
-}

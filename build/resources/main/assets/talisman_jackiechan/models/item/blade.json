@@ -1,7 +1,0 @@
-{
-  "parent": "talisman_jackiechan:custom/jianshen",
-  "textures": {
-    "0": "talisman_jackiechan:block/j2",
-    "particle": "minecraft:item/bamboo"
-  }
-}
