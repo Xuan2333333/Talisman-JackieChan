@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "magicpf",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Puffer"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.TOTEM_OF_UNDYING"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.TRIDENT"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:MagicPufferfish"
+    },
+    "name": "magic_pf",
+    "namespace": "mod"
+  }
+}

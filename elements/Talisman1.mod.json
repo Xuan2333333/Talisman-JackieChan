@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Talismans",
+    "icon": {
+      "value": "CUSTOM:DragonTalisman"
+    },
+    "showSearch": false
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "talisman_jackiechan:custom/gu",
+  "textures": {
+    "all": "talisman_jackiechan:block/gu",
+    "particle": "talisman_jackiechan:block/gu",
+    "missing": "talisman_jackiechan:block/gu"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "recipeRetstackSize": 1,
+    "group": "mask",
+    "unlockingItems": [],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:Mask.helmet"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:OxTalisman"
+    },
+    "smithingInputTemplateStack": {
+      "value": "Items.NETHER_STAR"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:Mask2.helmet"
+    },
+    "name": "niuzhanshi",
+    "namespace": "mod"
+  }
+}

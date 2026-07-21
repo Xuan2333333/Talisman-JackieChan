@@ -1,0 +1,2705 @@
+{
+  "mod_elements": [
+    {
+      "name": "Niu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/NiuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OxTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ox_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/OxTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/ox_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "Tu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/TuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RabbitTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/RabbitTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/rabbit_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "She",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "she",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/SheProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SnakeTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snake_talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/snake_talisman.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/SnakeTalismanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Hu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/HuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TigerTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/tiger_talisman.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/TigerTalismanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ma1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ma_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Ma1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ma2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ma_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Ma2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HorseTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "horse_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/HorseTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/horse_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "Ji1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ji_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Ji1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RoosterTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rooster_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/RoosterTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/rooster_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "Ji2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ji_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Ji2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gou",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gou",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/GouProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DogTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dog_talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/dog_talisman.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/DogTalismanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Puffer",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "driedpuffer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/PufferItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/driedpuffer.json"
+        ]
+      }
+    },
+    {
+      "name": "Talisman",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "TalismanGet",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talisman_get",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/TalismanGetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhiteIsBlack",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_is_black",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/white_is_black.json"
+        ]
+      }
+    },
+    {
+      "name": "TitenLike",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titen_like",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/titen_like.json"
+        ]
+      }
+    },
+    {
+      "name": "WithoutShadow",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "without_shadow",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/without_shadow.json"
+        ]
+      }
+    },
+    {
+      "name": "TheFlash",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_flash",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/the_flash.json"
+        ]
+      }
+    },
+    {
+      "name": "SunshineRainbowAndLittleWhiteHorse",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunshine_rainbow_and_little_white_horse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/sunshine_rainbow_and_little_white_horse.json"
+        ]
+      }
+    },
+    {
+      "name": "AFlyIsFlying",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_fly_is_flying",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/a_fly_is_flying.json"
+        ]
+      }
+    },
+    {
+      "name": "Immortality",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immortality",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/immortality.json"
+        ]
+      }
+    },
+    {
+      "name": "Long2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Long2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DragonTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/DragonTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/dragon_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "TalismanPower",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talisman_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/TalismanPowerRenderer.java",
+          "src/main/java/net/talisman/talismanjackiechan/entity/TalismanPowerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Long1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Long1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Power",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/PowerItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/power.json"
+        ]
+      }
+    },
+    {
+      "name": "Confringo",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "confringo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/confringo.json"
+        ]
+      }
+    },
+    {
+      "name": "Tu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Tu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hou2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hou_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Hou2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hou1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hou_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Hou1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonkeyTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "monkey_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/MonkeyTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/monkey_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "Kaleidoscopic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaleidoscopic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/kaleidoscopic.json"
+        ]
+      }
+    },
+    {
+      "name": "AstralProjection",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_projection",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/astral_projection.json"
+        ]
+      }
+    },
+    {
+      "name": "Talisman1",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismans",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChineseMagic",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chinese_magic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/damage_type/chinese_magic.json"
+        ]
+      }
+    },
+    {
+      "name": "Pufferfish",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pufferfish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/pufferfish.json"
+        ]
+      }
+    },
+    {
+      "name": "PigTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/PigTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/pig_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "RatTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rat_talisman",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/RatTalismanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/rat_talisman.json"
+        ]
+      }
+    },
+    {
+      "name": "Superman",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "superman",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/superman.json"
+        ]
+      }
+    },
+    {
+      "name": "TurnStaticIntoDynamic",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turn_static_into_dynamic",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/turn_static_into_dynamic.json"
+        ]
+      }
+    },
+    {
+      "name": "Zhu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Zhu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PigTalismanPower",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pig_talisman_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Zhu1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zhu_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Zhu1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shu1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shu_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Shu1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yang1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yang_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Yang1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yang2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yang_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Yang2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SheepTalisman",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheep_talisman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/sheep_talisman.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/SheepTalismanItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Talismanall",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismanall",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/talismanall.json"
+        ]
+      }
+    },
+    {
+      "name": "Talismanall1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "talismanall_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Talismanall1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PufferPower1",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puffer_power_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/puffer_power_1.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/PufferPower1Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Hetun2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetun_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Hetun2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PufferPower",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puffer_power",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/PufferPowerRenderer.java",
+          "src/main/java/net/talisman/talismanjackiechan/entity/PufferPowerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Hetun1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hetun_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Hetun1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MagicPufferfish",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pufferfish",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/magic_pufferfish.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/MagicPufferfishItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MagicPf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_pf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/magic_pf.json"
+        ]
+      }
+    },
+    {
+      "name": "YaomoguiguaiKuailizou",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yaomoguiguai_kuailizou",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/yaomoguiguai_kuailizou.json"
+        ]
+      }
+    },
+    {
+      "name": "Achmage",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achmage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/textures/entity/villager/profession/achmage.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "Achmages",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achmages",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MagicLizard",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magic_lizard",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/MagicLizardItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/magic_lizard.json"
+        ]
+      }
+    },
+    {
+      "name": "Xiyi1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xiyi_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Xiyi1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CanIEatIt",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "can_i_eat_it",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/can_i_eat_it.json"
+        ]
+      }
+    },
+    {
+      "name": "Achmage1",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achmage_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/achmage_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Achmageget",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "achmageget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/AchmagegetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mask",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mask",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/MaskItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/mask_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "Mask2",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mask_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/mask_2_helmet.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/Mask2Item.java"
+        ]
+      }
+    },
+    {
+      "name": "Niu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Niu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Niuzhanshi",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niuzhanshi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/niuzhanshi.json"
+        ]
+      }
+    },
+    {
+      "name": "Niuzhanshidemianju",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "niuzhanshidemianju",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/village_plains_house.json"
+        ]
+      }
+    },
+    {
+      "name": "Masks",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/masks.json"
+        ]
+      }
+    },
+    {
+      "name": "Masks2",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masks_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/masks_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Chai",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chai",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/chai.json"
+        ]
+      }
+    },
+    {
+      "name": "LONG3",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/entities/ender_dragon.json"
+        ]
+      }
+    },
+    {
+      "name": "TigerTalismanYin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_talisman_yin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/TigerTalismanYinItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/tiger_talisman_yin.json"
+        ]
+      }
+    },
+    {
+      "name": "TigerTalismanYang",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tiger_talisman_yang",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/tiger_talisman_yang.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/TigerTalismanYangItem.java"
+        ]
+      }
+    },
+    {
+      "name": "YinYang",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yin_yang",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/yin_yang.json"
+        ]
+      }
+    },
+    {
+      "name": "Evilself",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evilself",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/EvilselfRenderer.java",
+          "src/main/java/net/talisman/talismanjackiechan/entity/EvilselfEntity.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/evilself_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Hu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Hu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yindingwei",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yindingwei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/YindingweiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Yangdingwei",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yangdingwei",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/YangdingweiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoPeiStatue",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_pei_statue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/lo_pei_statue.json",
+          "src/main/resources/assets/talisman_jackiechan/models/block/lo_pei_statue.json",
+          "src/main/resources/data/talisman_jackiechan/loot_tables/blocks/lo_pei_statue.json",
+          "src/main/resources/assets/talisman_jackiechan/blockstates/lo_pei_statue.json",
+          "src/main/java/net/talisman/talismanjackiechan/block/LoPeiStatueBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LoPei",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_pei",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/lo_pei_spawn_egg.json",
+          "src/main/java/net/talisman/talismanjackiechan/entity/LoPeiEntity.java",
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/LoPeiRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Shu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Shu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cl",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cl",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/cl.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/ClItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Lp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lp",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/lp.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/LpItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TheThaumaturgicLegacyOfLinDynasty",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_thaumaturgic_legacy_of_lin_dynasty",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/the_thaumaturgic_legacy_of_lin_dynasty.json"
+        ]
+      }
+    },
+    {
+      "name": "Lpcj",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lpcj",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/LpcjProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LinGlory",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lin_glory",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/lin_glory.json"
+        ]
+      }
+    },
+    {
+      "name": "Lpmz",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lpmz",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/LpmzItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/lpmz.json"
+        ]
+      }
+    },
+    {
+      "name": "LoPei2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_pei_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/LoPei2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FriendsShouldGiveThumbsUp",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "friends_should_give_thumbs_up",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/friends_should_give_thumbs_up.json"
+        ]
+      }
+    },
+    {
+      "name": "Sslp",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sslp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/SslpItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/sslp.json"
+        ]
+      }
+    },
+    {
+      "name": "Gou2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lppd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Gou2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LoPeiStatue2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lo_pei_statue_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/block/lo_pei_statue_2.json",
+          "src/main/resources/assets/talisman_jackiechan/blockstates/lo_pei_statue_2.json",
+          "src/main/resources/data/talisman_jackiechan/loot_tables/blocks/lo_pei_statue_2.json",
+          "src/main/java/net/talisman/talismanjackiechan/block/LoPeiStatue2Block.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/lo_pei_statue_2.json"
+        ]
+      }
+    },
+    {
+      "name": "DriedCocoaBeans",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_cocoa_beans",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/DriedCocoaBeansItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/dried_cocoa_beans.json"
+        ]
+      }
+    },
+    {
+      "name": "CocoaPowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_powder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/cocoa_powder.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/CocoaPowderItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cocoa1",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/cocoa_1.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocoa2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/cocoa_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocoa3",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/cocoa_3.json"
+        ]
+      }
+    },
+    {
+      "name": "ForkelSChocolate",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forkel_s_chocolate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/ForkelSChocolateItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/forkel_s_chocolate.json"
+        ]
+      }
+    },
+    {
+      "name": "Chocolates",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/chocolates.json"
+        ]
+      }
+    },
+    {
+      "name": "GotChocolates",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "got_chocolates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/got_chocolates.json"
+        ]
+      }
+    },
+    {
+      "name": "LotusPod",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lotus_pod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/lotus_pod.json",
+          "src/main/resources/data/talisman_jackiechan/loot_tables/blocks/lotus_pod.json",
+          "src/main/resources/assets/talisman_jackiechan/blockstates/lotus_pod.json",
+          "src/main/java/net/talisman/talismanjackiechan/block/LotusPodBlock.java",
+          "src/main/resources/assets/talisman_jackiechan/models/block/lotus_pod.json"
+        ]
+      }
+    },
+    {
+      "name": "Long4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "long_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Long4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fan",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/FanItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/fan.json"
+        ]
+      }
+    },
+    {
+      "name": "FanPanel",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fan_panel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/FanPanelItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/fan_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "Shan",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/shan.json"
+        ]
+      }
+    },
+    {
+      "name": "Shanmian",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shanmian",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/shanmian.json"
+        ]
+      }
+    },
+    {
+      "name": "Drum1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drum_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Drum1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Drum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drum",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/loot_tables/blocks/drum.json",
+          "src/main/resources/assets/talisman_jackiechan/models/item/drum.json",
+          "src/main/resources/assets/talisman_jackiechan/blockstates/drum.json",
+          "src/main/resources/assets/talisman_jackiechan/models/block/drum.json",
+          "src/main/java/net/talisman/talismanjackiechan/block/DrumBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Drummake",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drummake",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/drummake.json"
+        ]
+      }
+    },
+    {
+      "name": "HairOfEwe",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hair_of_ewe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/HairOfEweItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/hair_of_ewe.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerFromImmortalWarrior",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_from_immortal_warrior",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/flower_from_immortal_warrior.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/FlowerFromImmortalWarriorItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tf",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tf",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/tf.json"
+        ]
+      }
+    },
+    {
+      "name": "PeerlessSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "peerless_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/PeerlessSwordItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/peerless_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "Castanets",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "castanets",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/CastanetsItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/castanets.json"
+        ]
+      }
+    },
+    {
+      "name": "Xb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "xb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/xb.json"
+        ]
+      }
+    },
+    {
+      "name": "SwordHandle",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_handle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/sword_handle.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/SwordHandleItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Blade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/item/BladeItem.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/blade.json"
+        ]
+      }
+    },
+    {
+      "name": "R",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/r.json"
+        ]
+      }
+    },
+    {
+      "name": "Jb",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/jb.json"
+        ]
+      }
+    },
+    {
+      "name": "J",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "j",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/j.json"
+        ]
+      }
+    },
+    {
+      "name": "Flute",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flute",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/flute.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/FluteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Dz",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/recipes/dz.json"
+        ]
+      }
+    },
+    {
+      "name": "Gourd",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gourd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/block/gourd.json",
+          "src/main/resources/data/talisman_jackiechan/loot_tables/blocks/gourd.json",
+          "src/main/java/net/talisman/talismanjackiechan/block/GourdBlock.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/gourd.json",
+          "src/main/resources/assets/talisman_jackiechan/blockstates/gourd.json"
+        ]
+      }
+    },
+    {
+      "name": "HsiWu",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hsi_wu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/entity/HsiWuEntity.java",
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/HsiWuRenderer.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/hsi_wu_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Sky",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/talisman_jackiechan/advancements/sky.json"
+        ]
+      }
+    },
+    {
+      "name": "HsiWu2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hsi_wu_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/HsiWu2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flute1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flute_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Flute1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flute2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flute_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/procedures/Flute2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shendu",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shendu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/talisman/talismanjackiechan/entity/ShenduEntity.java",
+          "src/main/resources/assets/talisman_jackiechan/models/item/shendu_spawn_egg.json",
+          "src/main/java/net/talisman/talismanjackiechan/client/renderer/ShenduRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Sling",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sling",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/talisman_jackiechan/models/item/sling_chestplate.json",
+          "src/main/java/net/talisman/talismanjackiechan/item/SlingItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "tu",
+      "type": "number",
+      "scope": "world",
+      "value": "0.0"
+    },
+    {
+      "name": "hou",
+      "type": "number",
+      "scope": "world",
+      "value": "1.0"
+    },
+    {
+      "name": "x",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "z",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "moshi",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yinx",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yiny",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yinz",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yangx",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yangy",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yangz",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "goulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "shulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "niulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "hulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "tulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "longlp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "shelp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "malp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "yanglp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "houlp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "jilp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "zhulp",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "lpxf",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "dizi",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "dizi1",
+      "files": [
+        "yin_pin_-2miao_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "dizi2",
+      "files": [
+        "yin_pin_-5miao_"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:MagicLizard",
+      "~CUSTOM:MagicPufferfish"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:PeerlessSword",
+      "~CUSTOM:Fan"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.friends_should_give_thumbs_up.title": "Friends Should Give Thumbs Up",
+      "item.talisman_jackiechan.pig_talisman": "Pig Talisman",
+      "advancements.without_shadow.title": "Without Shadow",
+      "advancements.the_flash.title": "The Flash",
+      "advancements.a_fly_is_flying.descr": "You fly?",
+      "item.talisman_jackiechan.tiger_talisman_yin": "Tiger Talisman-Yin",
+      "block.talisman_jackiechan.gourd.description_0": "Symbol of immortal warrior from Li Xuan(TieguaiLi), used to defeat Bai tza, the water demon",
+      "advancements.the_thaumaturgic_legacy_of_lin_dynasty.descr": "Resurrect Lo Pei",
+      "subtitles.dizi2": "",
+      "subtitles.dizi1": "",
+      "block.talisman_jackiechan.lo_pei_statue": "Lo Pei Statue",
+      "item.talisman_jackiechan.rat_talisman.description_0": "Animates stationary entities. Left-click on armor stands or statues to awaken them",
+      "item.talisman_jackiechan.sslp": "Sslp",
+      "block.talisman_jackiechan.lotus_pod.description_0": "Symbol of immortal warrior from He Qiong(HeXiangu), used to defeat Tso Lan, the moon demon",
+      "item.talisman_jackychan.snake_talisman": "Snake Talisman",
+      "item.talisman_jackychan.rooster_talisman": "Rooster Talisman",
+      "item.talisman_jackiechan.peerless_sword.description_0": "Symbol of immortal warrior from Lv Yan(LvDongbin), used to defeat Shendu, the fire demon",
+      "advancements.yaomoguiguai_kuailizou.title": "Yu mo guiu gwai fie di jow",
+      "advancements.astral_projection.descr": "That\u0027s my body!",
+      "item.talisman_jackiechan.rabbit_talisman": "Rabbit Talisman",
+      "item.talisman_jackiechan.horse_talisman": "Horse Talisman",
+      "advancements.talismanall.title": " 12 Talismans",
+      "advancements.masks_2.descr": "Vanity",
+      "item.talisman_jackiechan.rabbit_talisman.description_0": "Transforms you into the Speedster. Right-click to manipulate velocity",
+      "item.talisman_jackiechan.power": "Power",
+      "advancements.talisman.descr": "Chinese Magic?",
+      "item.talisman_jackiechan.monkey_talisman": "Monkey Talisman",
+      "item.talisman_jackiechan.fan": "Fan",
+      "advancements.superman.descr": "Heat vision!",
+      "item.talisman_jackiechan.blade": "Blade",
+      "item.talisman_jackiechan.tiger_talisman": "Tiger Talisman",
+      "advancements.confringo.descr": "Fight Voldemort！",
+      "item.talisman_jackychan.dog_talisman": "Dog Talisman",
+      "advancements.lin_glory.title": "Lin Glory？",
+      "item.talisman_jackiechan.evilself_spawn_egg": "Evilself Spawn Egg",
+      "advancements.confringo.title": "Confringo",
+      "item.talisman_jackiechan.mask_helmet": "Mask of El Toro Fuerte",
+      "block.talisman_jackiechan.lo_pei_statue.description_0": "林氏王朝圣斗士的雕像，曾经用古老的气魔法终结了暴君——火之恶魔巫师圣主的残酷统治",
+      "item.talisman_jackychan.horse_talisman": "Horse Talisman",
+      "block.talisman_jackiechan.lo_pei_statue.description_1": "并将圣主的神力分成了十二个符咒",
+      "block.talisman_jackiechan.drum": "Drum",
+      "item.talisman_jackiechan.tiger_talisman.description_0": "Balances your hunger and health. Right-click to split your soul",
+      "item.talisman_jackiechan.dragon_talisman.description_0": "Channels explosive power of the Epic Dragon. Right-click to unleash a devastating Dragon\u0027s Breath",
+      "item.talisman_jackychan.puffer": "Puffer",
+      "advancements.superman.title": "Superman?",
+      "advancements.sky.title": "Hsi Wu",
+      "item.talisman_jackiechan.fan_panel": "Fan Panel",
+      "advancements.sunshine_rainbow_and_little_white_horse.title": "Sunshine Rainbow And Little White Horse",
+      "item.talisman_jackiechan.forkel_s_chocolate": "Forkel\u0027s chocolate",
+      "entity.minecraft.villager.talisman_jackiechan.achmage": "Achmage",
+      "advancements.masks.title": "Never Takes Off!",
+      "item.talisman_jackiechan.lp": "Lp",
+      "item.talisman_jackiechan.flower_from_immortal_warrior.description_0": "Symbol of immortal warrior from Xu Jian(Lancaihe), used to defeat Dai Gui, the earth demon",
+      "advancements.sky.descr": "Killing The Sky Demon",
+      "item.talisman_jackiechan.tiger_talisman_yang": "Tiger Talisman-Yang",
+      "item.talisman_jackiechan.puffer_power_1": "Puffer Power 1",
+      "item.talisman_jackiechan.hsi_wu_spawn_egg": "Hsi Wu Spawn Egg",
+      "advancements.sunshine_rainbow_and_little_white_horse.descr": "\"No Racist!\" cure all diseases",
+      "advancements.titen_like.title": "Titen-Like",
+      "block.talisman_jackiechan.lotus_pod": "Lotus Pod",
+      "item.talisman_jackiechan.ox_talisman": "Ox Talisman",
+      "block.talisman_jackiechan.lo_pei_statue_2.description_0": "He approved you.",
+      "item.talisman_jackiechan.lpmz": "Lpmz",
+      "item.talisman_jackiechan.dried_cocoa_beans": "Dried Cocoa Beans",
+      "item.talisman_jackiechan.mask_2_helmet": "Mask of El Toro fuerte",
+      "item.talisman_jackiechan.pig_talisman.description_0": "Right-click to unleash concentrated heat vision",
+      "entity.talisman_jackiechan.lo_pei": "Lo Pei",
+      "block.talisman_jackiechan.gourd": "Gourd",
+      "entity.talisman_jackiechan.hsi_wu": "Hsi Wu",
+      "item.talisman_jackiechan.sheep_talisman.description_0": "Right-click to release your spirit. Left-click to return to your physical form",
+      "item.talisman_jackiechan.cl": "Cl",
+      "entity.talisman_jackiechan.shendu": "Shendu",
+      "item.talisman_jackiechan.snake_talisman.description_0": "Grants invisibility when sneaking in jungles. Right-click to vanish",
+      "advancements.astral_projection.title": "Astral Projection",
+      "advancements.talisman.title": "Talisman!",
+      "advancements.turn_static_into_dynamic.title": "Turn Static Into Dynamic",
+      "item.talisman_jackiechan.magic_pufferfish": "Magic Pufferfish",
+      "advancements.talismanall.descr": "Invincible in the world",
+      "item.talisman_jackiechan.forkel_s_chocolate.description_0": "I heard that they used pigtalisman to melt chocolate.",
+      "item.talisman_jackiechan.peerless_sword": "Peerless Sword",
+      "item.talisman_jackiechan.sheep_talisman": "Sheep Talisman",
+      "advancements.can_i_eat_it.descr": "Look delicious",
+      "item.talisman_jackiechan.dog_talisman.description_0": "Grants resistance to death. Passive immortality while in inventory",
+      "block.talisman_jackiechan.lo_pei_statue_2": "Thumb-up Lo Pei Statue ",
+      "item.talisman_jackiechan.horse_talisman.description_0": "Clears all external debuffs. Right-click to activate. Passive resistance effect while in inventory",
+      "item.talisman_jackiechan.flute": "Flute",
+      "item.talisman_jackychan.rabbit_talisman": "Rabbit Talisman",
+      "advancements.kaleidoscopic.descr": "I\u0027m wukong!",
+      "advancements.the_flash.descr": "Nimbly!",
+      "item.talisman_jackiechan.sword_handle": "Sword Handle",
+      "advancements.a_fly_is_flying.title": "A Fly Is Flying",
+      "advancements.the_thaumaturgic_legacy_of_lin_dynasty.title": "The Thaumaturgic Legacy Of Lin Dynasty",
+      "advancements.white_is_black.descr": "Black is also white?",
+      "item.talisman_jackiechan.dragon_talisman": "Dragon Talisman",
+      "item.talisman_jackiechan.mask_2_helmet.description_0": "拥有牛符咒的力量",
+      "death.attack.chinese_magic": "%1$s died of a magical attack",
+      "advancements.titen_like.descr": "Mighty!",
+      "item.talisman_jackiechan.magic_lizard": "Magic Lizard",
+      "item.talisman_jackiechan.lo_pei_spawn_egg": "Lo Pei Spawn Egg",
+      "advancements.friends_should_give_thumbs_up.descr": "Hoo-Ha",
+      "item.talisman_jackiechan.driedpuffer": "Dried Pufferfish",
+      "death.attack.chinese_magic.player": "%1$s died whilst trying to escape %2$s",
+      "advancements.turn_static_into_dynamic.descr": "Super moose!",
+      "item.talisman_jackiechan.snake_talisman": "Snake Talisman",
+      "item.talisman_jackiechan.rooster_talisman.description_0": "Grants flight. Passive aerial mobility while in inventory",
+      "item.talisman_jackiechan.ox_talisman.description_0": "Grants Strength and Power that scale with your level",
+      "advancements.immortality.title": "Immortality",
+      "advancements.lin_glory.descr": "Stirke Lo Pei",
+      "advancements.yaomoguiguai_kuailizou.descr": "Avada Kedavra!",
+      "entity.talisman_jackiechan.evilself": "Evilself",
+      "advancements.achmage_1.title": "Achmage",
+      "item.talisman_jackiechan.flute.description_0": "Symbol of immortal warrior from Han Xiang(HanXiangzi), used to defeat Hsi Wu, the sky demon",
+      "item.talisman_jackychan.ox_talisman": "Ox Talisman",
+      "item.talisman_jackiechan.fan.description_0": "Symbol of immortal warrior from Zhongli Quan(Hanzhonli), used to defeat Xiao Fung, the wind demon",
+      "item_group.talisman_jackiechan.talismans": "Talismans",
+      "item.talisman_jackiechan.cocoa_powder": "Cocoa Powder",
+      "item.talisman_jackiechan.rat_talisman": "Rat Talisman",
+      "item.talisman_jackiechan.castanets.description_0": "Symbol of immortal warrior from Cao Yi(CaoGuojiu), used to defeat Tchangzu, the thunder demon",
+      "item.talisman_jackiechan.shendu_spawn_egg": "Shendu Spawn Egg",
+      "advancements.immortality.descr": "The talisman of the best friend of Human",
+      "advancements.got_chocolates.descr": "Got the chocolates",
+      "advancements.masks.descr": "El toro fuerte never tacks off his mask!",
+      "item.talisman_jackiechan.flower_from_immortal_warrior": "Flower From Immortal Warrior",
+      "advancements.got_chocolates.title": "Elwinschwein",
+      "item.talisman_jackiechan.rooster_talisman": "Rooster Talisman",
+      "advancements.kaleidoscopic.title": "Kaleidoscopic",
+      "advancements.masks_2.title": "What is the reason?",
+      "item.talisman_jackychan.tiger_talisman": "Tiger Talisman",
+      "death.attack.chinese_magic.item": "%1$s was killed by %2$s using %3$s",
+      "item.talisman_jackiechan.castanets": "Castanets",
+      "item.talisman_jackiechan.monkey_talisman.description_0": "Left-click on creatures to morph their forms. Right-click to shift your target essence",
+      "item.talisman_jackiechan.mask_helmet.description_0": "牛战士是不会摘下他的面罩的",
+      "block.talisman_jackiechan.drum.description_0": "Symbol of immortal warrior from Zhang Guo(ZhangGuoLao), used to defeat Po Kong, the mountain demon",
+      "advancements.achmage_1.descr": "Double gun!",
+      "advancements.can_i_eat_it.title": "Can I Eat It?",
+      "advancements.white_is_black.title": "White Is Black",
+      "advancements.without_shadow.descr": "I can\u0027t see myself!",
+      "item.talisman_jackiechan.dog_talisman": "Dog Talisman",
+      "item.talisman_jackiechan.hair_of_ewe": "Hair Of Ewe",
+      "item.talisman_jackiechan.hair_of_ewe.description_0": "wool",
+      "item.talisman_jackiechan.sling_chestplate": "Sling胸甲"
+    },
+    "zh_cn": {
+      "advancements.a_fly_is_flying.descr": "鱼翔浅底？",
+      "advancements.the_flash.title": "风驰电掣",
+      "advancements.without_shadow.title": "藏身匿影",
+      "item.talisman_jackiechan.pig_talisman": "猪符咒",
+      "advancements.friends_should_give_thumbs_up.title": "我们是朋友",
+      "item.talisman_jackiechan.tiger_talisman_yin": "虎符咒·阴",
+      "block.talisman_jackiechan.gourd.description_0": "铁拐李的不死神明信物，可用于降服水之恶魔芭莎",
+      "advancements.the_thaumaturgic_legacy_of_lin_dynasty.descr": "复活伟大的洛佩",
+      "subtitles.dizi2": "",
+      "block.talisman_jackiechan.lo_pei_statue": "洛佩雕像",
+      "subtitles.dizi1": "",
+      "item.talisman_jackiechan.rat_talisman.description_0": "灵化的鼠授予你化静为动的生命力（右键雕像或盔甲架试试）",
+      "item.talisman_jackiechan.sslp": "Sslp",
+      "block.talisman_jackiechan.lotus_pod.description_0": "蓝采和的不死神明信物，可用于降服月之恶魔咒蓝",
+      "item.talisman_jackychan.snake_talisman": "蛇符咒",
+      "item.talisman_jackychan.rooster_talisman": "鸡符咒",
+      "item.talisman_jackiechan.peerless_sword.description_0": "吕洞宾的不死神明信物，可用于降服火之恶魔圣主",
+      "advancements.yaomoguiguai_kuailizou.title": "妖魔鬼怪快离开",
+      "advancements.astral_projection.descr": "是不是可以去别人梦里。。。",
+      "item.talisman_jackiechan.rabbit_talisman": "兔符咒",
+      "item.talisman_jackiechan.horse_talisman": "马符咒",
+      "advancements.talismanall.title": "十二符咒",
+      "advancements.masks_2.descr": "虚荣",
+      "item.talisman_jackiechan.rabbit_talisman.description_0": "敏捷的兔子给以你无上的速度",
+      "item.talisman_jackiechan.power": "Power",
+      "advancements.talisman.descr": "要用魔法打败魔法",
+      "item.talisman_jackiechan.monkey_talisman": "猴符咒",
+      "item.talisman_jackiechan.fan": "扇子",
+      "advancements.superman.descr": "可以拿来烤蛋糕？",
+      "item.talisman_jackiechan.blade": "剑身",
+      "item.talisman_jackiechan.tiger_talisman": "虎符咒",
+      "advancements.confringo.descr": "Confringo！",
+      "item.talisman_jackychan.dog_talisman": "狗符咒",
+      "advancements.lin_glory.title": "林氏王朝的遗产。。。",
+      "item.talisman_jackiechan.evilself_spawn_egg": "邪恶的自己刷怪蛋",
+      "advancements.confringo.title": "画龙点睛",
+      "item.talisman_jackiechan.mask_helmet": "牛战士的面具",
+      "block.talisman_jackiechan.lo_pei_statue.description_0": "林氏王朝圣斗士的雕像，强大的斗士曾经用古老的气魔法终结了暴君——火之恶魔巫师圣主的残酷统治",
+      "item.talisman_jackychan.horse_talisman": "马符咒",
+      "block.talisman_jackiechan.lo_pei_statue.description_1": "并将圣主的神力分解了，变成了十二个符咒",
+      "block.talisman_jackiechan.drum": "鼓",
+      "item.talisman_jackiechan.tiger_talisman.description_0": "调和的虎能平衡世上一切的阴阳善恶",
+      "item.talisman_jackiechan.dragon_talisman.description_0": "神圣的龙赐予你无尽的能量，龙爆破！",
+      "item.talisman_jackychan.puffer": "河豚",
+      "advancements.superman.title": "电眼逼人",
+      "advancements.sky.title": "西木",
+      "item.talisman_jackiechan.fan_panel": "扇面",
+      "advancements.sunshine_rainbow_and_little_white_horse.title": "妙手回春",
+      "item.talisman_jackiechan.forkel_s_chocolate": "小猪巧克力",
+      "entity.minecraft.villager.talisman_jackiechan.achmage": "大法师",
+      "advancements.masks.title": "牛战士永远不会摘下他的面具！",
+      "item.talisman_jackiechan.lp": "Lp",
+      "item.talisman_jackiechan.flower_from_immortal_warrior.description_0": "蓝采和的不死神明信物，可用于降服地之恶魔地魁",
+      "advancements.sky.descr": "击败天之恶魔西木",
+      "item.talisman_jackiechan.tiger_talisman_yang": "虎符咒·阳",
+      "item.talisman_jackiechan.puffer_power_1": "Puffer Power 1",
+      "item.talisman_jackiechan.hsi_wu_spawn_egg": "西木刷怪蛋",
+      "advancements.sunshine_rainbow_and_little_white_horse.descr": "阳光彩虹小白马",
+      "advancements.titen_like.title": "力大无穷",
+      "block.talisman_jackiechan.lotus_pod": "莲花包",
+      "item.talisman_jackiechan.ox_talisman": "牛符咒",
+      "block.talisman_jackiechan.lo_pei_statue_2.description_0": "他认可了你",
+      "item.talisman_jackiechan.lpmz": "Lpmz",
+      "item.talisman_jackiechan.dried_cocoa_beans": "干可可豆",
+      "item.talisman_jackiechan.mask_2_helmet": "牛战士的面具",
+      "item.talisman_jackiechan.pig_talisman.description_0": "灼目的猪给予你高温镭射眼",
+      "entity.talisman_jackiechan.lo_pei": "洛佩",
+      "block.talisman_jackiechan.gourd": "葫芦",
+      "entity.talisman_jackiechan.hsi_wu": "西木",
+      "item.talisman_jackiechan.sheep_talisman.description_0": "通幽的羊馈赠你灵魂出窍之力",
+      "item.talisman_jackiechan.cl": "Cl",
+      "entity.talisman_jackiechan.shendu": "圣主",
+      "item.talisman_jackiechan.snake_talisman.description_0": "隐匿的蛇让你化为无形",
+      "advancements.astral_projection.title": "灵魂出窍",
+      "advancements.talisman.title": "还有一件事",
+      "advancements.turn_static_into_dynamic.title": "化静为动",
+      "item.talisman_jackiechan.magic_pufferfish": "魔法河豚",
+      "advancements.talismanall.descr": "我现在什么都不缺啦！",
+      "item.talisman_jackiechan.forkel_s_chocolate.description_0": "我听说他们用猪符咒融化巧克力",
+      "item.talisman_jackiechan.peerless_sword": "纯阳剑",
+      "item.talisman_jackiechan.sheep_talisman": "羊符咒",
+      "advancements.can_i_eat_it.descr": "看起来很好吃",
+      "item.talisman_jackiechan.dog_talisman.description_0": "不朽的狗保你长生不老，不死不灭",
+      "block.talisman_jackiechan.lo_pei_statue_2": "表达肯定的洛佩雕像 ",
+      "item.talisman_jackiechan.horse_talisman.description_0": "高贵的马儿能祛除体内的一切外力（右键瞬间恢复）",
+      "item.talisman_jackiechan.flute": "笛子",
+      "item.talisman_jackychan.rabbit_talisman": "兔符咒",
+      "advancements.kaleidoscopic.descr": "七十二变是怎么样的变，记住四个字的口诀",
+      "advancements.the_flash.descr": "听说跑得快可以穿越时空？",
+      "item.talisman_jackiechan.sword_handle": "剑柄",
+      "advancements.a_fly_is_flying.title": "鹰鸡长空",
+      "advancements.the_thaumaturgic_legacy_of_lin_dynasty.title": "林氏王朝的荣耀",
+      "advancements.white_is_black.descr": "哪个才是真正的我，我自己也不太明白",
+      "item.talisman_jackiechan.dragon_talisman": "龙符咒",
+      "item.talisman_jackiechan.mask_2_helmet.description_0": "拥有牛符咒的力量",
+      "death.attack.chinese_magic": "%1$s 死于魔法攻击",
+      "advancements.titen_like.descr": "愚公我来帮你了",
+      "item.talisman_jackiechan.magic_lizard": "魔法蜥蜴",
+      "item.talisman_jackiechan.lo_pei_spawn_egg": "洛佩刷怪蛋",
+      "advancements.friends_should_give_thumbs_up.descr": "竖起大拇指吧",
+      "death.attack.chinese_magic.player": "%1$s 在试图逃离 %2$s 的魔法制裁时绝望地死去",
+      "item.talisman_jackiechan.driedpuffer": "干河豚",
+      "advancements.turn_static_into_dynamic.descr": "嘟嘟嘟，超级驼鹿！",
+      "item.talisman_jackiechan.snake_talisman": "蛇符咒",
+      "item.talisman_jackiechan.rooster_talisman.description_0": "凌空的鸡施予你飞行好漂浮的能力",
+      "item.talisman_jackiechan.ox_talisman.description_0": "壮硕的牛赠与你强健的体魄（随等级成长）",
+      "advancements.immortality.title": "不死不灭",
+      "advancements.lin_glory.descr": "击败圣斗士洛佩",
+      "advancements.yaomoguiguai_kuailizou.descr": "捣蛋鬼别捣蛋",
+      "entity.talisman_jackiechan.evilself": "邪恶的自己",
+      "advancements.achmage_1.title": "双剑合璧",
+      "item.talisman_jackiechan.flute.description_0": "韩湘子的不死神明信物，可用于降服天之恶魔西木",
+      "item.talisman_jackychan.ox_talisman": "牛符咒",
+      "item.talisman_jackiechan.fan.description_0": "汉钟离的不死神明信物，可用于降服风之恶魔啸风",
+      "item_group.talisman_jackiechan.talismans": "十二符咒",
+      "item.talisman_jackiechan.cocoa_powder": "可可粉",
+      "item.talisman_jackiechan.rat_talisman": "鼠符咒",
+      "item.talisman_jackiechan.castanets.description_0": "曹国舅的不死神明信物，可用于降服雷电恶魔中苏",
+      "item.talisman_jackiechan.shendu_spawn_egg": "圣主刷怪蛋",
+      "advancements.immortality.descr": "这tm哮天犬吧",
+      "advancements.got_chocolates.descr": "所有人都很喜欢菲克尔爷爷的埃尔文小猪",
+      "advancements.masks.descr": "摔跤手的尊严",
+      "item.talisman_jackiechan.flower_from_immortal_warrior": "花",
+      "advancements.got_chocolates.title": "巴伐利亚小猪",
+      "item.talisman_jackiechan.rooster_talisman": "鸡符咒",
+      "advancements.kaleidoscopic.title": "七十二变",
+      "advancements.masks_2.title": "为什么？",
+      "item.talisman_jackychan.tiger_talisman": "虎符咒",
+      "death.attack.chinese_magic.item": "%1$s 被 %2$s 用%3$s的魔法杀死了",
+      "item.talisman_jackiechan.castanets": "响板",
+      "item.talisman_jackiechan.monkey_talisman.description_0": "变化的猴子给予你变化之力（左键生物改变其外形，右键改变你将要改变的）",
+      "item.talisman_jackiechan.mask_helmet.description_0": "牛战士是不会摘下他的面具的",
+      "block.talisman_jackiechan.drum.description_0": "张果老的不死神明信物，可用于降服山之恶魔波刚",
+      "advancements.achmage_1.descr": "双枪会给出答案",
+      "advancements.can_i_eat_it.title": "这可以吃吗",
+      "advancements.white_is_black.title": "阴阳平衡",
+      "advancements.without_shadow.descr": "衣服为什么不隐身啊喂",
+      "item.talisman_jackiechan.dog_talisman": "狗符咒",
+      "item.talisman_jackiechan.hair_of_ewe": "母羊的毛",
+      "item.talisman_jackiechan.hair_of_ewe.description_0": "羊毛",
+      "item.talisman_jackiechan.sling_chestplate": "Sling胸甲"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModModels.java",
+      "src/main/resources/assets/talisman_jackiechan/sounds.json",
+      "src/main/java/net/talisman/talismanjackiechan/TalismanJackiechanMod.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModSounds.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModTabs.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModTrades.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModVillagerProfessions.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModBlocks.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModItems.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModEntities.java",
+      "src/main/java/net/talisman/talismanjackiechan/init/TalismanJackiechanModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "talisman_jackiechan",
+    "modName": "Talisman JackieChan",
+    "version": "1.1.33",
+    "description": "12 talismans from Jackie Chan Adventures",
+    "author": "Xuan",
+    "websiteURL": "https://m.bilibili.com/space/482395883",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "modPicture": "cl",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Jackie Chan Adventures",
+    "modElementsPackage": "net.talisman.talismanjackiechan"
+  },
+  "mcreatorVersion": 202500228610
+}

@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"197\" y=\"100\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_add_potion\"><field name=\"potion\">SLOWNESS</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">2</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">60</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><next><block type=\"deal_damage\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">5</field></block></value><value name=\"damagesource\"><block type=\"damagesource_from_type\"><field name=\"damagetype\">CUSTOM:ChineseMagic</field></block></value></block></next></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

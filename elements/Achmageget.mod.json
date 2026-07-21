@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"185\" y=\"196\"><field name=\"trigger\">player_completes_advancement</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">AND</field><value name=\"A\"><block type=\"entity_has_achievement\"><field name=\"achievement\">CUSTOM:CanIEatIt</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"B\"><block type=\"entity_has_achievement\"><field name=\"achievement\">CUSTOM:YaomoguiguaiKuailizou</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value><statement name=\"DO0\"><block type=\"entity_add_achievement\"><field name=\"achievement\">CUSTOM:Achmage1</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

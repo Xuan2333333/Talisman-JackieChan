@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"348\" y=\"142\"><field name=\"trigger\">player_log_in</field><next><block type=\"entity_add_achievement\"><field name=\"achievement\">CUSTOM:Talisman</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "_fv": 79,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 1,
+    "blockingRenderType": 0,
+    "texture": "j2",
+    "customModelName": "baojian:default",
+    "blockingModelName": "Normal blocking",
+    "name": "Peerless Sword",
+    "specialInformation": {
+      "fixedValue": [
+        "Symbol of immortal warrior from Lv Yan(LvDongbin), used to defeat Shendu, the fire demon"
+      ]
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Talisman1"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 1.2,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 4062,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smoking",
+    "recipeRetstackSize": 1,
+    "group": "cocoa",
+    "unlockingItems": [],
+    "cookingBookCategory": "FOOD",
+    "xpReward": 20.0,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smokingInputStack": {
+      "value": "Items.DYE#3"
+    },
+    "smokingReturnStack": {
+      "value": "CUSTOM:DriedCocoaBeans"
+    },
+    "name": "cocoa_1",
+    "namespace": "mod"
+  }
+}

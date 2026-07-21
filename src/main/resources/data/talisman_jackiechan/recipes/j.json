@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:gold_ingot"
+  },
+  "base": {
+    "item": "talisman_jackiechan:blade"
+  },
+  "addition": {
+    "item": "talisman_jackiechan:sword_handle"
+  },
+  "result": {
+    "item": "talisman_jackiechan:peerless_sword"
+  }
+}

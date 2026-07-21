@@ -1,0 +1,9 @@
+{
+  "parent": "talisman_jackiechan:custom/lpdxdmz",
+  "textures": {
+    "all": "talisman_jackiechan:block/tex",
+    "particle": "talisman_jackiechan:block/tex",
+    "0": "talisman_jackiechan:block/tex"
+  },
+  "render_type": "solid"
+}

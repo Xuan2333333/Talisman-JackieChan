@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"-328\" y=\"110\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"projectile_shoot_from_entity\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"projectile\"><block type=\"projectiles_arrow\"><field name=\"particles\">TRUE</field><field name=\"pickup\">DISALLOWED</field><field name=\"projectile\">CUSTOM:TalismanPower</field><field name=\"fire\">TRUE</field><value name=\"damage\"><block type=\"math_number\"><field name=\"NUM\">16</field></block></value><value name=\"shooter\"><block type=\"entity_from_deps\"/></value><value name=\"knockback\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"piercing\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value></block></value><value name=\"speed\"><block type=\"math_number\"><field name=\"NUM\">8</field></block></value><value name=\"inaccuracy\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><next><block type=\"item_cooldown_for\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"item\"><block type=\"itemstack_to_mcitem\"/></value><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">10</field></block></value></block></next></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

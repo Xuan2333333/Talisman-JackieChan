@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"211\" y=\"151\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"logic_binary_ops\"><field name=\"OP\">EQ</field><value name=\"A\"><block type=\"logic_binary_ops\"><field name=\"OP\">OR</field><value name=\"A\"><block type=\"entity_checkgamemode\"><field name=\"gamemode\">SPECTATOR</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value><value name=\"B\"><block type=\"entity_checkgamemode\"><field name=\"gamemode\">CREATIVE</field><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></value></block></value><value name=\"B\"><block type=\"logic_boolean\"><field name=\"BOOL\">FALSE</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_allow_flying\"><value name=\"condition\"><block type=\"logic_boolean\"><field name=\"BOOL\">TRUE</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value></block></statement></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

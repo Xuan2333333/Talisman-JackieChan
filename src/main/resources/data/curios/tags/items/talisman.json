@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "talisman_jackiechan:rat_talisman",
+    "talisman_jackiechan:ox_talisman",
+    "talisman_jackiechan:tiger_talisman",
+    "talisman_jackiechan:tiger_talisman_yin",
+    "talisman_jackiechan:tiger_talisman_yang",
+    "talisman_jackiechan:rabbit_talisman",
+    "talisman_jackiechan:dragon_talisman",
+    "talisman_jackiechan:snake_talisman",
+    "talisman_jackiechan:horse_talisman",
+    "talisman_jackiechan:sheep_talisman",
+    "talisman_jackiechan:monkey_talisman",
+    "talisman_jackiechan:rooster_talisman",
+    "talisman_jackiechan:dog_talisman",
+    "talisman_jackiechan:pig_talisman"
+
+  ]
+}

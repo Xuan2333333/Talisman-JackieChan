@@ -1,0 +1,766 @@
+Forge Auto Renaming Tool v2.0.4
+lib: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\moddev\artifacts\forge-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\top.theillusivec4.curios\curios-forge\5.14.1+1.20.1\15f30624b3577216e121571607d224bfc0e8caf7\curios-forge-5.14.1+1.20.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\cpw.mods\securejarhandler\2.1.10\51e6a22c6c716beb11e244bf5b8be480f51dd6b5\securejarhandler-2.1.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.20.1-47.4.10\55c46d27e7cfc8b829af8a28e562a7d290fa38b6\fmlloader-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\coremods\5.2.4\e30bab269d896613e38396274711410b3a0e4b87\coremods-5.2.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\cpw.mods\modlauncher\10.0.9\6d9443f56f50bb85cea383686ff9c867391458b\modlauncher-10.0.9.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.openjdk.nashorn\nashorn-core\15.4\f67f5ffaa5f5130cf6fb9b133da00c7df3b532a5\nashorn-core-15.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-commons\9.8\36e4d212970388e5bd2c5180292012502df461bb\asm-commons-9.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\9.8\395f1c1f035258511f27bc9b2583d76e4b143f59\asm-util-9.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\9.8\b9747a320844b6cb1eacd90d8ecfd260a16c01d3\asm-analysis-9.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\9.8\18419ca5b77a2f81097c741e7872e6ab8d2f40d\asm-tree-9.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\9.8\dc19ecb3f7889b7860697215cae99c0f9b6f6b4b\asm-9.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\accesstransformers\8.0.4\272d240aa73f42195b2a68e2ebd8b701ecf41f63\accesstransformers-8.0.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4\4.9.1\e92af8ab33e428461927b484e90bb155a4f3a052\antlr4-4.9.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.antlr\antlr4-runtime\4.9.1\428664f05d2b7f7b7610204b5aa7c1763f62011a\antlr4-runtime-4.9.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.10\94dae566be650566ea9115a1414ab76bfcf5a804\fmlcore-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\eventbus\6.0.5\699143dd438431d06b57416944f7cedbe52e1475\eventbus-6.0.5.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\forgespi\7.0.1\3b4972a0cdb135853dba219be61a79b22cff1309\forgespi-7.0.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\unsafe\0.2.0\54d7a0a5e8fdb71b973025caa46f341ae5904f39\unsafe-0.2.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.7\fe2225c1a7834ee20d5a1e2630bcca798367d962\mergetool-1.1.7.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mergetool\1.1.7\aa7c6d9d187d585a8a215c288d65b0038be80b2a\mergetool-1.1.7-api.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\toml\3.6.4\51d6cefb2b55ee55ee26b16391212fb2c7dfb4f4\toml-3.6.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.electronwill.night-config\core\3.6.4\510f174abbf1c947494db50ef2445683bd52c230\core-3.6.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarMetadata\0.3.19\83feaa9b770e6ac0e96ee4fc23fa89325c5fe2\JarJarMetadata-0.3.19.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.8.5\4433f50c07debefaed0553bd0068f4f48d449313\maven-artifact-3.8.5.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.jodah\typetools\0.6.3\a01aaa6ddaea9ec07ec4f209487b7a46a526283a\typetools-0.6.3.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecrell\terminalconsoleappender\1.2.0\96d02cd3b384ff015a8fef4223bcb4ccf1717c95\terminalconsoleappender-1.2.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.jline\jline-reader\3.12.1\4382ab1382c7b6f379377ed5f665dc2f6e1218bc\jline-reader-3.12.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.jline\jline-terminal\3.12.1\c777448314e050d980a6b697c140f3bfe9eb7416\jline-terminal-3.12.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.spongepowered\mixin\0.8.5\9d1c0c3a304ae6697ecd477218fa61b850bf57fc\mixin-0.8.5.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\cpw.mods\bootstraplauncher\1.1.2\c546e00443d8432cda6baa1c860346980742628\bootstraplauncher-1.1.2.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarFileSystems\0.3.19\2464eb7d6b9ddb9db36a82cf8a95193e5c6fe020\JarJarFileSystems-0.3.19.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlearlydisplay\1.20.1-47.4.10\a262fa19e65f643aae210b4275b53bee053aa765\fmlearlydisplay-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.10\ccc533c7dd67e0983217197d7549c8b49e7ab453\javafmllanguage-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.10\e9a2879fe3612ea34b9728ec2633304a1e67d480\lowcodelanguage-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.10\ec5cefbbc65c67302b8fac317010faab85fa14b9\mclanguage-1.20.1-47.4.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.codehaus.plexus\plexus-utils\3.3.0\cf43b5391de623b36fe066a21127baef82c64022\plexus-utils-3.3.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-lang3\3.12.0\c6842c86792ff03b9f1d1fe2aab8dc23aa6c6f0e\commons-lang3-3.12.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.8.1\4ac28ff2f1ddf05dae3043a190451e8c46b73c31\log4j-core-2.8.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.10\dd9b193aef96e973d5a11ab13cd17430c2e4306b\gson-2.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.1-jre\60458f877d055d0c9114d9e1a2efb737b4bc282c\guava-31.1-jre.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.machinezoo.noexception\noexception\1.7.1\b65330c98e38a1f915fa54a6e5eca496505e3f0a\noexception-1.7.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.8.0-beta4\83b0359d847ee053d745be7ec0d8e9e8a44304b4\slf4j-api-1.8.0-beta4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.19.0\ea1b37f38c327596b216542bc636cfdc0b8036fa\log4j-api-2.19.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\logging\1.1.1\832b8e6674a9b325a5175a3a6267dfaf34c85139\logging-1.1.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\ca.weblite\java-objc-bridge\1.1\1227f9e0666314f9de41477e3ec277e542ed7f7b\java-objc-bridge-1.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.jetbrains\annotations\24.0.1\13c5c75c4206580aa4d683bffee658caae6c9f43\annotations-24.0.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.github.oshi\oshi-core\6.2.2\54f5efc19bca95d709d9a37d19ffcbba3d21c1a6\oshi-core-6.2.2.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\failureaccess\1.0.1\1dcf1de382a0bf95a3d8b0849546c88bac1292c9\failureaccess-1.0.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.ibm.icu\icu4j\61.1\28d33b5e44e72edcc66a5da7a34a42147f38d987\icu4j-61.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\authlib\4.0.43\2ff9d747a77570a07a60d32ac77eb6162ad2a2d9\authlib-4.0.43.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\blocklist\1.0.10\5c685c5ffa94c4cd39496c7184c1d122e515ecef\blocklist-1.0.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\brigadier\1.1.8\5244ce82c3337bba4a196a3ce858bfaecc74404a\brigadier-1.1.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\datafixerupper\6.0.8\3ba4a30557a9b057760af4011f909ba619fc5125\datafixerupper-6.0.8.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\patchy\2.2.10\da05971b07cbb379d002cf7eaec6a2048211fefc\patchy-2.2.10.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.mojang\text2speech\1.17.9\3cad216e3a7f0c19b4b394388bc9ffc446f13b14\text2speech-1.17.9.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.15\49d94806b6e3dc933dacbd8acb0fdbab8ebd1e5d\commons-codec-1.15.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-io\commons-io\2.11.0\a2503f302b11ebde7ebc3df41daebe0e4eea3689\commons-io-2.11.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\commons-logging\commons-logging\1.2\4bfc12adfe4842bf07b657f0369c4cb522955686\commons-logging-1.2.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.82.Final\a544270cf1ae8b8077082f5036436a9a9971ea71\netty-buffer-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.82.Final\b77200379acb345a9ffdece1c605e591ac3e4e0a\netty-codec-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.82.Final\22d148e85c3f5ebdacc0ce1f5aabb1d420f73f3\netty-common-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.82.Final\644041d1fa96a5d3130a29e8978630d716d76e38\netty-handler-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.82.Final\38f665ae8dcd29032eea31245ba7806bed2e0fa8\netty-resolver-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-classes-epoll\4.1.82.Final\e7c7dd18deac93105797f30057c912651ea76521\netty-transport-classes-epoll-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport-native-unix-common\4.1.82.Final\3e895b35ca1b8a0eca56cacff4c2dde5d2c6abce\netty-transport-native-unix-common-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.82.Final\e431a218d91acb6476ccad5f5aafde50aa3945ca\netty-transport-4.1.82.Final.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\it.unimi.dsi\fastutil\8.5.9\bb7ea75ecdb216654237830b3a96d87ad91f8cc5\fastutil-8.5.9.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna-platform\5.12.1\97406a297c852f4a41e688a176ec675f72e8329\jna-platform-5.12.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.java.dev.jna\jna\5.10.0\7cf4c87dd802db50721db66947aa237d7ad09418\jna-5.10.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\net.sf.jopt-simple\jopt-simple\5.0.4\4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c\jopt-simple-5.0.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.commons\commons-compress\1.21\4ec95b60d4e86b5c95a0e919cb172a0af98011ef\commons-compress-1.21.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpclient\4.5.13\e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada\httpclient-4.5.13.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.httpcomponents\httpcore\4.4.15\7f2e0c573eaa7a74bac2e89b359e1f73d92a0a1d\httpcore-4.4.15.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j2-impl\2.19.0\5c04bfdd63ce9dceb2e284b81e96b6a70010ee10\log4j-slf4j2-impl-2.19.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.joml\joml\1.10.5\22566d58af70ad3d72308bab63b8339906deb649\joml-1.10.5.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-glfw\3.3.1\cbac1b8d30cb4795149c1ef540f912671a8616d0\lwjgl-glfw-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-jemalloc\3.3.1\a817bcf213db49f710603677457567c37d53e103\lwjgl-jemalloc-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-openal\3.3.1\2623a6b8ae1dfcd880738656a9f0243d2e6840bd\lwjgl-openal-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-opengl\3.3.1\831a5533a21a5f4f81bbc51bb13e9899319b5411\lwjgl-opengl-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-stb\3.3.1\b119297cf8ed01f247abe8685857f8e7fcf5980f\lwjgl-stb-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl-tinyfd\3.3.1\ff1914111ef2e3e0110ef2dabc8d8cdaad82347\lwjgl-tinyfd-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.lwjgl\lwjgl\3.3.1\ae58664f88e18a9bb2c77b063833ca7aaec484cb\lwjgl-3.3.1.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\b421526c5f297295adef1c886e5246c39d4ac629\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\3.12.0\d5692f0526415fcc6de94bb5bfbd3afd9dd3b3e5\checker-qual-3.12.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.11.0\c5a0ace696d3f8b1c1d8cc036d8c03cc0cbe6b69\error_prone_annotations-2.11.0.jar
+lib: C:\Users\lenovo\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.3\ba035118bc8bac37d7eff77700720999acd9986d\j2objc-annotations-1.3.jar
+log: null
+input: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\devlibs\Talisman JackieChan-1.1.7.jar
+output: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\libs\Talisman JackieChan-1.1.7.jar
+threads: 28
+Names: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\moddev\artifacts\namedToIntermediate.tsrg(reversed: false)
+Fix Annotations: false
+Unfinal Parameters: false
+Fix Records: false
+Fix Identifiers: false
+Fix SourceFile: false
+Fix Line Numbers: false
+Strip codesigning signatures: ALL
+Adding Libraries to Inheritance
+Reading Input: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\devlibs\Talisman JackieChan-1.1.7.jar
+Adding input to inheritance map
+Processing entries
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity$1/canUse()Z from net/minecraft/world/entity/ai/goal/Goal/canUse()Z: canUse -> m_8036_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity$1/tick()V from net/minecraft/world/entity/ai/goal/Goal/tick()V: tick -> m_8037_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity$1/start()V from net/minecraft/world/entity/ai/goal/Goal/start()V: start -> m_8056_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/PufferPowerRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/PufferPowerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/TalismanPowerRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V from net/minecraft/client/renderer/entity/EntityRenderer/render(Lnet/minecraft/world/entity/Entity;FFLcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource;I)V: render -> m_7392_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity$2/getPosition()Lnet/minecraft/world/phys/Vec3; from net/minecraft/world/entity/ai/goal/RandomStrollGoal/getPosition()Lnet/minecraft/world/phys/Vec3;: getPosition -> m_7037_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity$2/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modelmodel_Converted/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modelshendu_Converted/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity$1/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D from net/minecraft/world/entity/ai/goal/MeleeAttackGoal/getAttackReachSqr(Lnet/minecraft/world/entity/LivingEntity;)D: getAttackReachSqr -> m_6639_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modelmodel_Converted/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modellplp/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity$1/canContinueToUse()Z from net/minecraft/world/entity/ai/goal/Goal/canContinueToUse()Z: canContinueToUse -> m_8045_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modellplp/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modelshendu_Converted/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modellpdx/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/TalismanPowerRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Modellpdx/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/LoPeiRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V from net/minecraft/client/renderer/entity/LivingEntityRenderer/scale(Lnet/minecraft/world/entity/LivingEntity;Lcom/mojang/blaze3d/vertex/PoseStack;F)V: scale -> m_7546_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/LoPeiRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/HsiWuRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/EvilselfRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/renderer/ShenduRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Model西木/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V from net/minecraft/client/model/EntityModel/setupAnim(Lnet/minecraft/world/entity/Entity;FFFFF)V: setupAnim -> m_6973_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/client/model/Model西木/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V from net/minecraft/client/model/Model/renderToBuffer(Lcom/mojang/blaze3d/vertex/PoseStack;Lcom/mojang/blaze3d/vertex/VertexConsumer;IIFFFF)V: renderToBuffer -> m_7695_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LotusPodBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LotusPodBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/GourdBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/GourdBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LotusPodBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LotusPodBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/GourdBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/DrumBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/GourdBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/DrumBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/DrumBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/DrumBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/DrumBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/rotate(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/world/level/block/state/BlockState;: rotate -> m_6843_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/Block/getStateForPlacement(Lnet/minecraft/world/item/context/BlockPlaceContext;)Lnet/minecraft/world/level/block/state/BlockState;: getStateForPlacement -> m_5573_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape; from net/minecraft/world/level/block/state/BlockBehaviour/getVisualShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/shapes/CollisionContext;)Lnet/minecraft/world/phys/shapes/VoxelShape;: getVisualShape -> m_5909_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z from net/minecraft/world/level/block/Block/propagatesSkylightDown(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)Z: propagatesSkylightDown -> m_7420_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/level/block/Block/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/BlockGetter;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_5871_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState; from net/minecraft/world/level/block/state/BlockBehaviour/getFluidState(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/material/FluidState;: getFluidState -> m_5888_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/mirror(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Mirror;)Lnet/minecraft/world/level/block/state/BlockState;: mirror -> m_6943_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState; from net/minecraft/world/level/block/state/BlockBehaviour/updateShape(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/block/state/BlockState;: updateShape -> m_7417_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatue2Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/block/LoPeiStatueBlock/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V from net/minecraft/world/level/block/Block/createBlockStateDefinition(Lnet/minecraft/world/level/block/state/StateDefinition$Builder;)V: createBlockStateDefinition -> m_7926_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/getPickupItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/AbstractArrow/getPickupItem()Lnet/minecraft/world/item/ItemStack;: getPickupItem -> m_7941_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitEntity(Lnet/minecraft/world/phys/EntityHitResult;)V: onHitEntity -> m_5790_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/tick()V from net/minecraft/world/entity/projectile/AbstractArrow/tick()V: tick -> m_8119_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V from net/minecraft/world/entity/projectile/AbstractArrow/doPostHurtEffects(Lnet/minecraft/world/entity/LivingEntity;)V: doPostHurtEffects -> m_7761_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/playerTouch(Lnet/minecraft/world/entity/player/Player;)V from net/minecraft/world/entity/projectile/AbstractArrow/playerTouch(Lnet/minecraft/world/entity/player/Player;)V: playerTouch -> m_6123_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PufferPowerEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/projectile/Projectile/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V from net/minecraft/world/entity/projectile/AbstractArrow/onHitBlock(Lnet/minecraft/world/phys/BlockHitResult;)V: onHitBlock -> m_8060_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/TalismanPowerEntity/getItem()Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/entity/projectile/ItemSupplier/getItem()Lnet/minecraft/world/item/ItemStack;: getItem -> m_7846_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/customServerAiStep()V from net/minecraft/world/entity/Mob/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/LivingEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V from net/minecraft/world/entity/LivingEntity/checkFallDamage(DZLnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V: checkFallDamage -> m_7840_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation; from net/minecraft/world/entity/Mob/createNavigation(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/ai/navigation/PathNavigation;: createNavigation -> m_6037_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/customServerAiStep()V from net/minecraft/world/entity/Mob/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/aiStep()V from net/minecraft/world/entity/monster/Monster/aiStep()V: aiStep -> m_8107_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z from net/minecraft/world/entity/LivingEntity/causeFallDamage(FFLnet/minecraft/world/damagesource/DamageSource;)Z: causeFallDamage -> m_142535_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/monster/Monster/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/setNoGravity(Z)V from net/minecraft/world/entity/Entity/setNoGravity(Z)V: setNoGravity -> m_20242_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/HsiWuEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/EvilselfEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/ShenduEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getHurtSound(Lnet/minecraft/world/damagesource/DamageSource;)Lnet/minecraft/sounds/SoundEvent;: getHurtSound -> m_7975_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/stopSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: stopSeenByPlayer -> m_6452_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob; from net/minecraft/world/entity/AgeableMob/getBreedOffspring(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/AgeableMob;: getBreedOffspring -> m_142606_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/customServerAiStep()V from net/minecraft/world/entity/animal/Animal/customServerAiStep()V: customServerAiStep -> m_8024_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/die(Lnet/minecraft/world/damagesource/DamageSource;)V from net/minecraft/world/entity/TamableAnimal/die(Lnet/minecraft/world/damagesource/DamageSource;)V: die -> m_6667_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/entity/animal/Animal/mobInteract(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;: mobInteract -> m_6071_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/entity/LivingEntity/getDeathSound()Lnet/minecraft/sounds/SoundEvent;: getDeathSound -> m_5592_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V from net/minecraft/world/entity/Mob/dropCustomDeathLoot(Lnet/minecraft/world/damagesource/DamageSource;IZ)V: dropCustomDeathLoot -> m_7472_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/animal/Animal/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V from net/minecraft/world/entity/Entity/startSeenByPlayer(Lnet/minecraft/server/level/ServerPlayer;)V: startSeenByPlayer -> m_6457_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/canChangeDimensions()Z from net/minecraft/world/entity/LivingEntity/canChangeDimensions()Z: canChangeDimensions -> m_6072_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/animal/Animal/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/entity/LoPeiEntity/isFood(Lnet/minecraft/world/item/ItemStack;)Z from net/minecraft/world/entity/animal/Animal/isFood(Lnet/minecraft/world/item/ItemStack;)Z: isFood -> m_6898_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/CastanetsItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DogTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DogTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$Helmet/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DragonTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DragonTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DragonTalismanItem/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I from net/minecraft/world/item/Item/getUseDuration(Lnet/minecraft/world/item/ItemStack;)I: getUseDuration -> m_8105_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/DragonTalismanItem/onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V from net/minecraft/world/item/Item/onUseTick(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/item/ItemStack;I)V: onUseTick -> m_5929_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$Helmet/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$Helmet/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FlowerFromImmortalWarriorItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FluteItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/FluteItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/ForkelSChocolateItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/HairOfEweItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/HorseTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/HorseTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/HorseTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F from net/minecraft/world/item/Item/getDestroySpeed(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/block/state/BlockState;)F: getDestroySpeed -> m_8102_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/getEnchantmentValue()I from net/minecraft/world/item/Item/getEnchantmentValue()I: getEnchantmentValue -> m_6473_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicPufferfishItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/mineBlock(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/LivingEntity;)Z: mineBlock -> m_6813_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/getEnchantmentValue()I from net/minecraft/world/item/Item/getEnchantmentValue()I: getEnchantmentValue -> m_6473_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MagicLizardItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/Mask2Item$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MaskItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MonkeyTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/OxTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MonkeyTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/OxTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/MonkeyTalismanItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PeerlessSwordItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PigTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/PigTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RabbitTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RoosterTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RoosterTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RabbitTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RatTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RoosterTalismanItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RatTalismanItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/Item/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SheepTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RoosterTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SheepTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/ArmorMaterial/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6230_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getEnchantmentValue()I from net/minecraft/world/item/ArmorMaterial/getEnchantmentValue()I: getEnchantmentValue -> m_6646_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/RatTalismanItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getKnockbackResistance()F from net/minecraft/world/item/ArmorMaterial/getKnockbackResistance()F: getKnockbackResistance -> m_6649_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getToughness()F from net/minecraft/world/item/ArmorMaterial/getToughness()F: getToughness -> m_6651_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getName()Ljava/lang/String; from net/minecraft/world/item/ArmorMaterial/getName()Ljava/lang/String;: getName -> m_6082_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDefenseForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDefenseForType -> m_7366_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getEquipSound()Lnet/minecraft/sounds/SoundEvent; from net/minecraft/world/item/ArmorMaterial/getEquipSound()Lnet/minecraft/sounds/SoundEvent;: getEquipSound -> m_7344_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SlingItem$1/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I from net/minecraft/world/item/ArmorMaterial/getDurabilityForType(Lnet/minecraft/world/item/ArmorItem$Type;)I: getDurabilityForType -> m_266425_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SnakeTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/SnakeTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanYangItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanYinItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/item/TigerTalismanYinItem/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V from net/minecraft/world/item/Item/inventoryTick(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;IZ)V: inventoryTick -> m_6883_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$MapVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Conflicting propagated mapping for net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$WorldVariables/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag; from net/minecraft/world/level/saveddata/SavedData/save(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;: save -> m_7176_
+Adding extras
+Sorting
+Writing Output: C:\Users\lenovo\MCreatorWorkspaces\talisman_jackiechan\build\libs\Talisman JackieChan-1.1.7.jar
+  META-INF/
+  META-INF/MANIFEST.MF
+  META-INF/mods.toml
+  assets/
+  assets/talisman_jackiechan/
+  assets/talisman_jackiechan/blockstates/
+  assets/talisman_jackiechan/blockstates/drum.json
+  assets/talisman_jackiechan/blockstates/gourd.json
+  assets/talisman_jackiechan/blockstates/lo_pei_statue.json
+  assets/talisman_jackiechan/blockstates/lo_pei_statue_2.json
+  assets/talisman_jackiechan/blockstates/lotus_pod.json
+  assets/talisman_jackiechan/lang/
+  assets/talisman_jackiechan/lang/en_us.json
+  assets/talisman_jackiechan/lang/lzh.json
+  assets/talisman_jackiechan/lang/zh_cn.json
+  assets/talisman_jackiechan/models/
+  assets/talisman_jackiechan/models/block/
+  assets/talisman_jackiechan/models/block/drum.json
+  assets/talisman_jackiechan/models/block/gourd.json
+  assets/talisman_jackiechan/models/block/lo_pei_statue.json
+  assets/talisman_jackiechan/models/block/lo_pei_statue_2.json
+  assets/talisman_jackiechan/models/block/lotus_pod.json
+  assets/talisman_jackiechan/models/custom/
+  assets/talisman_jackiechan/models/custom/baojian.json
+  assets/talisman_jackiechan/models/custom/dizi.json
+  assets/talisman_jackiechan/models/custom/gu.json
+  assets/talisman_jackiechan/models/custom/hulu.json
+  assets/talisman_jackiechan/models/custom/jianbing.json
+  assets/talisman_jackiechan/models/custom/jianshen.json
+  assets/talisman_jackiechan/models/custom/lianhua.json
+  assets/talisman_jackiechan/models/custom/lpdxdmz.json
+  assets/talisman_jackiechan/models/custom/model.json
+  assets/talisman_jackiechan/models/custom/pldx.json
+  assets/talisman_jackiechan/models/custom/pldxdmz.json
+  assets/talisman_jackiechan/models/custom/shanzi.json
+  assets/talisman_jackiechan/models/custom/xiangban.json
+  assets/talisman_jackiechan/models/item/
+  assets/talisman_jackiechan/models/item/blade.json
+  assets/talisman_jackiechan/models/item/castanets.json
+  assets/talisman_jackiechan/models/item/cl.json
+  assets/talisman_jackiechan/models/item/cocoa_powder.json
+  assets/talisman_jackiechan/models/item/dog_talisman.json
+  assets/talisman_jackiechan/models/item/dragon_talisman.json
+  assets/talisman_jackiechan/models/item/dried_cocoa_beans.json
+  assets/talisman_jackiechan/models/item/driedpuffer.json
+  assets/talisman_jackiechan/models/item/drum.json
+  assets/talisman_jackiechan/models/item/evilself_spawn_egg.json
+  assets/talisman_jackiechan/models/item/fan.json
+  assets/talisman_jackiechan/models/item/fan_panel.json
+  assets/talisman_jackiechan/models/item/flower_from_immortal_warrior.json
+  assets/talisman_jackiechan/models/item/flute.json
+  assets/talisman_jackiechan/models/item/forkel_s_chocolate.json
+  assets/talisman_jackiechan/models/item/gourd.json
+  assets/talisman_jackiechan/models/item/hair_of_ewe.json
+  assets/talisman_jackiechan/models/item/horse_talisman.json
+  assets/talisman_jackiechan/models/item/hsi_wu_spawn_egg.json
+  assets/talisman_jackiechan/models/item/lo_pei_spawn_egg.json
+  assets/talisman_jackiechan/models/item/lo_pei_statue.json
+  assets/talisman_jackiechan/models/item/lo_pei_statue_2.json
+  assets/talisman_jackiechan/models/item/lotus_pod.json
+  assets/talisman_jackiechan/models/item/lp.json
+  assets/talisman_jackiechan/models/item/lpmz.json
+  assets/talisman_jackiechan/models/item/magic_lizard.json
+  assets/talisman_jackiechan/models/item/magic_pufferfish.json
+  assets/talisman_jackiechan/models/item/mask_2_helmet.json
+  assets/talisman_jackiechan/models/item/mask_helmet.json
+  assets/talisman_jackiechan/models/item/monkey_talisman.json
+  assets/talisman_jackiechan/models/item/ox_talisman.json
+  assets/talisman_jackiechan/models/item/peerless_sword.json
+  assets/talisman_jackiechan/models/item/pig_talisman.json
+  assets/talisman_jackiechan/models/item/power.json
+  assets/talisman_jackiechan/models/item/puffer_power_1.json
+  assets/talisman_jackiechan/models/item/rabbit_talisman.json
+  assets/talisman_jackiechan/models/item/rat_talisman.json
+  assets/talisman_jackiechan/models/item/rooster_talisman.json
+  assets/talisman_jackiechan/models/item/sheep_talisman.json
+  assets/talisman_jackiechan/models/item/shendu_spawn_egg.json
+  assets/talisman_jackiechan/models/item/sling_chestplate.json
+  assets/talisman_jackiechan/models/item/snake_talisman.json
+  assets/talisman_jackiechan/models/item/sslp.json
+  assets/talisman_jackiechan/models/item/sword_handle.json
+  assets/talisman_jackiechan/models/item/tiger_talisman.json
+  assets/talisman_jackiechan/models/item/tiger_talisman_yang.json
+  assets/talisman_jackiechan/models/item/tiger_talisman_yin.json
+  assets/talisman_jackiechan/sounds.json
+  assets/talisman_jackiechan/sounds/
+  assets/talisman_jackiechan/sounds/yin_pin_-2miao_.ogg
+  assets/talisman_jackiechan/sounds/yin_pin_-5miao_.ogg
+  assets/talisman_jackiechan/textures/
+  assets/talisman_jackiechan/textures/block/
+  assets/talisman_jackiechan/textures/block/3.png
+  assets/talisman_jackiechan/textures/block/56.png
+  assets/talisman_jackiechan/textures/block/dizi.png
+  assets/talisman_jackiechan/textures/block/dz.png
+  assets/talisman_jackiechan/textures/block/gu.png
+  assets/talisman_jackiechan/textures/block/hl.png
+  assets/talisman_jackiechan/textures/block/j2.png
+  assets/talisman_jackiechan/textures/block/lh.png
+  assets/talisman_jackiechan/textures/block/lp.png
+  assets/talisman_jackiechan/textures/block/sz.png
+  assets/talisman_jackiechan/textures/block/tex.png
+  assets/talisman_jackiechan/textures/block/xbe.png
+  assets/talisman_jackiechan/textures/cl.png
+  assets/talisman_jackiechan/textures/entities/
+  assets/talisman_jackiechan/textures/entities/45.png
+  assets/talisman_jackiechan/textures/entities/94.png
+  assets/talisman_jackiechan/textures/entities/achmage.png
+  assets/talisman_jackiechan/textures/entities/achmage2.png
+  assets/talisman_jackiechan/textures/entities/evilself.png
+  assets/talisman_jackiechan/textures/entities/illusioner.png
+  assets/talisman_jackiechan/textures/entities/lopei.png
+  assets/talisman_jackiechan/textures/entities/lpei.png
+  assets/talisman_jackiechan/textures/entities/lplplp4.png
+  assets/talisman_jackiechan/textures/entities/luopei.png
+  assets/talisman_jackiechan/textures/entities/shendu.png
+  assets/talisman_jackiechan/textures/entities/texture.png
+  assets/talisman_jackiechan/textures/entities/villager.png
+  assets/talisman_jackiechan/textures/entities/ximu.png
+  assets/talisman_jackiechan/textures/entity/
+  assets/talisman_jackiechan/textures/entity/villager/
+  assets/talisman_jackiechan/textures/entity/villager/profession/
+  assets/talisman_jackiechan/textures/entity/villager/profession/achmage.png
+  assets/talisman_jackiechan/textures/entity/villager/profession/achmage.png.mcmeta
+  assets/talisman_jackiechan/textures/entity/zombie_villager/
+  assets/talisman_jackiechan/textures/entity/zombie_villager/profession/
+  assets/talisman_jackiechan/textures/entity/zombie_villager/profession/achmage.png
+  assets/talisman_jackiechan/textures/item/
+  assets/talisman_jackiechan/textures/item/1.png
+  assets/talisman_jackiechan/textures/item/3.png
+  assets/talisman_jackiechan/textures/item/56.png
+  assets/talisman_jackiechan/textures/item/cl.png
+  assets/talisman_jackiechan/textures/item/cocoapowder.png
+  assets/talisman_jackiechan/textures/item/dizi.png
+  assets/talisman_jackiechan/textures/item/driedcocoabeans.png
+  assets/talisman_jackiechan/textures/item/ganxiyi.png
+  assets/talisman_jackiechan/textures/item/gou.png
+  assets/talisman_jackiechan/textures/item/hetun.png
+  assets/talisman_jackiechan/textures/item/hetun1.png
+  assets/talisman_jackiechan/textures/item/hou.png
+  assets/talisman_jackiechan/textures/item/hu.png
+  assets/talisman_jackiechan/textures/item/hu1.png
+  assets/talisman_jackiechan/textures/item/huyang.png
+  assets/talisman_jackiechan/textures/item/huyin.png
+  assets/talisman_jackiechan/textures/item/j2.png
+  assets/talisman_jackiechan/textures/item/ji.png
+  assets/talisman_jackiechan/textures/item/jiandai.png
+  assets/talisman_jackiechan/textures/item/lh.png
+  assets/talisman_jackiechan/textures/item/lolpei.png
+  assets/talisman_jackiechan/textures/item/long.png
+  assets/talisman_jackiechan/textures/item/lp.png
+  assets/talisman_jackiechan/textures/item/lpmz.png
+  assets/talisman_jackiechan/textures/item/ma.png
+  assets/talisman_jackiechan/textures/item/niu1.png
+  assets/talisman_jackiechan/textures/item/niuniu.png
+  assets/talisman_jackiechan/textures/item/niuzhanshi.png
+  assets/talisman_jackiechan/textures/item/oo.png
+  assets/talisman_jackiechan/textures/item/op.png
+  assets/talisman_jackiechan/textures/item/paper.png
+  assets/talisman_jackiechan/textures/item/po.png
+  assets/talisman_jackiechan/textures/item/power.png
+  assets/talisman_jackiechan/textures/item/pufferfish.png
+  assets/talisman_jackiechan/textures/item/shan.png
+  assets/talisman_jackiechan/textures/item/she.png
+  assets/talisman_jackiechan/textures/item/shu.png
+  assets/talisman_jackiechan/textures/item/sling.png
+  assets/talisman_jackiechan/textures/item/sling1_body.png
+  assets/talisman_jackiechan/textures/item/sling1_boots.png
+  assets/talisman_jackiechan/textures/item/sling1_head.png
+  assets/talisman_jackiechan/textures/item/sling1_leggings.png
+  assets/talisman_jackiechan/textures/item/sprite.png
+  assets/talisman_jackiechan/textures/item/sslp.png
+  assets/talisman_jackiechan/textures/item/sz.png
+  assets/talisman_jackiechan/textures/item/tf.png
+  assets/talisman_jackiechan/textures/item/tu.png
+  assets/talisman_jackiechan/textures/item/wool.png
+  assets/talisman_jackiechan/textures/item/x128.png
+  assets/talisman_jackiechan/textures/item/xiaozhuqkl.png
+  assets/talisman_jackiechan/textures/item/yang.png
+  assets/talisman_jackiechan/textures/item/zhu.png
+  assets/talisman_jackiechan/textures/models/
+  assets/talisman_jackiechan/textures/models/armor/
+  assets/talisman_jackiechan/textures/models/armor/niu_layer_1.png
+  assets/talisman_jackiechan/textures/models/armor/niu_layer_2.png
+  assets/talisman_jackiechan/textures/models/armor/ox_layer_1.png
+  assets/talisman_jackiechan/textures/models/armor/ox_layer_2.png
+  assets/talisman_jackiechan/textures/models/armor/sling.png
+  assets/talisman_jackiechan/textures/models/armor/sling1_layer_1.png
+  assets/talisman_jackiechan/textures/models/armor/sling1_layer_2.png
+  assets/talisman_jackiechan/textures/models/armor/slinglayer1.png
+  data/
+  data/curios/
+  data/curios/tags/
+  data/curios/tags/items/
+  data/curios/tags/items/shoulder.json
+  data/curios/tags/items/talisman.json
+  data/forge/
+  data/forge/loot_modifiers/
+  data/forge/loot_modifiers/global_loot_modifiers.json
+  data/minecraft/
+  data/minecraft/loot_tables/
+  data/minecraft/loot_tables/entities/
+  data/minecraft/loot_tables/entities/ender_dragon.json
+  data/minecraft/tags/
+  data/minecraft/tags/items/
+  data/minecraft/tags/items/pickaxes.json
+  data/minecraft/tags/items/swords.json
+  data/minecraft/tags/point_of_interest_type/
+  data/minecraft/tags/point_of_interest_type/acquirable_job_site.json
+  data/talisman_jackiechan/
+  data/talisman_jackiechan/advancements/
+  data/talisman_jackiechan/advancements/a_fly_is_flying.json
+  data/talisman_jackiechan/advancements/achmage_1.json
+  data/talisman_jackiechan/advancements/astral_projection.json
+  data/talisman_jackiechan/advancements/can_i_eat_it.json
+  data/talisman_jackiechan/advancements/confringo.json
+  data/talisman_jackiechan/advancements/friends_should_give_thumbs_up.json
+  data/talisman_jackiechan/advancements/got_chocolates.json
+  data/talisman_jackiechan/advancements/immortality.json
+  data/talisman_jackiechan/advancements/kaleidoscopic.json
+  data/talisman_jackiechan/advancements/lin_glory.json
+  data/talisman_jackiechan/advancements/masks.json
+  data/talisman_jackiechan/advancements/masks_2.json
+  data/talisman_jackiechan/advancements/sky.json
+  data/talisman_jackiechan/advancements/sunshine_rainbow_and_little_white_horse.json
+  data/talisman_jackiechan/advancements/superman.json
+  data/talisman_jackiechan/advancements/talisman.json
+  data/talisman_jackiechan/advancements/talismanall.json
+  data/talisman_jackiechan/advancements/the_flash.json
+  data/talisman_jackiechan/advancements/the_thaumaturgic_legacy_of_lin_dynasty.json
+  data/talisman_jackiechan/advancements/titen_like.json
+  data/talisman_jackiechan/advancements/turn_static_into_dynamic.json
+  data/talisman_jackiechan/advancements/white_is_black.json
+  data/talisman_jackiechan/advancements/without_shadow.json
+  data/talisman_jackiechan/advancements/yaomoguiguai_kuailizou.json
+  data/talisman_jackiechan/damage_type/
+  data/talisman_jackiechan/damage_type/chinese_magic.json
+  data/talisman_jackiechan/loot_modifiers/
+  data/talisman_jackiechan/loot_modifiers/add_dog_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_horse_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_lo_pei_statue_archaeology.json
+  data/talisman_jackiechan/loot_modifiers/add_monkey_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_ox_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_pig_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_rabbit_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_rat_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_rooster_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_sheep_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_snake_talisman.json
+  data/talisman_jackiechan/loot_modifiers/add_tiger_talisman.json
+  data/talisman_jackiechan/loot_tables/
+  data/talisman_jackiechan/loot_tables/blocks/
+  data/talisman_jackiechan/loot_tables/blocks/drum.json
+  data/talisman_jackiechan/loot_tables/blocks/gourd.json
+  data/talisman_jackiechan/loot_tables/blocks/lo_pei_statue.json
+  data/talisman_jackiechan/loot_tables/blocks/lo_pei_statue_2.json
+  data/talisman_jackiechan/loot_tables/blocks/lotus_pod.json
+  data/talisman_jackiechan/recipes/
+  data/talisman_jackiechan/recipes/chai.json
+  data/talisman_jackiechan/recipes/chocolates.json
+  data/talisman_jackiechan/recipes/cocoa_1.json
+  data/talisman_jackiechan/recipes/cocoa_2.json
+  data/talisman_jackiechan/recipes/cocoa_3.json
+  data/talisman_jackiechan/recipes/drummake.json
+  data/talisman_jackiechan/recipes/dz.json
+  data/talisman_jackiechan/recipes/j.json
+  data/talisman_jackiechan/recipes/jb.json
+  data/talisman_jackiechan/recipes/magic_pf.json
+  data/talisman_jackiechan/recipes/niuzhanshi.json
+  data/talisman_jackiechan/recipes/pufferfish.json
+  data/talisman_jackiechan/recipes/r.json
+  data/talisman_jackiechan/recipes/shan.json
+  data/talisman_jackiechan/recipes/shanmian.json
+  data/talisman_jackiechan/recipes/tf.json
+  data/talisman_jackiechan/recipes/xb.json
+  data/talisman_jackiechan/recipes/yin_yang.json
+  long.png
+  net/
+  net/talisman/
+  net/talisman/talismanjackiechan/
+  net/talisman/talismanjackiechan/TalismanJackiechanMod.class
+  net/talisman/talismanjackiechan/block/
+  net/talisman/talismanjackiechan/block/DrumBlock.class
+  net/talisman/talismanjackiechan/block/GourdBlock.class
+  net/talisman/talismanjackiechan/block/LoPeiStatue2Block.class
+  net/talisman/talismanjackiechan/block/LoPeiStatueBlock.class
+  net/talisman/talismanjackiechan/block/LotusPodBlock.class
+  net/talisman/talismanjackiechan/client/
+  net/talisman/talismanjackiechan/client/model/
+  net/talisman/talismanjackiechan/client/model/Modellpdx.class
+  net/talisman/talismanjackiechan/client/model/Modellplp.class
+  net/talisman/talismanjackiechan/client/model/Modelmodel_Converted.class
+  net/talisman/talismanjackiechan/client/model/Modelshendu_Converted.class
+  net/talisman/talismanjackiechan/client/model/Model西木.class
+  net/talisman/talismanjackiechan/client/renderer/
+  net/talisman/talismanjackiechan/client/renderer/EvilselfRenderer.class
+  net/talisman/talismanjackiechan/client/renderer/HsiWuRenderer.class
+  net/talisman/talismanjackiechan/client/renderer/LoPeiRenderer.class
+  net/talisman/talismanjackiechan/client/renderer/PufferPowerRenderer.class
+  net/talisman/talismanjackiechan/client/renderer/ShenduRenderer.class
+  net/talisman/talismanjackiechan/client/renderer/TalismanPowerRenderer.class
+  net/talisman/talismanjackiechan/entity/
+  net/talisman/talismanjackiechan/entity/EvilselfEntity$1.class
+  net/talisman/talismanjackiechan/entity/EvilselfEntity.class
+  net/talisman/talismanjackiechan/entity/HsiWuEntity$1.class
+  net/talisman/talismanjackiechan/entity/HsiWuEntity$2.class
+  net/talisman/talismanjackiechan/entity/HsiWuEntity.class
+  net/talisman/talismanjackiechan/entity/LoPeiEntity$1.class
+  net/talisman/talismanjackiechan/entity/LoPeiEntity.class
+  net/talisman/talismanjackiechan/entity/PigTalismanPowerEntity.class
+  net/talisman/talismanjackiechan/entity/PufferPowerEntity.class
+  net/talisman/talismanjackiechan/entity/ShenduEntity$1.class
+  net/talisman/talismanjackiechan/entity/ShenduEntity$2.class
+  net/talisman/talismanjackiechan/entity/ShenduEntity.class
+  net/talisman/talismanjackiechan/entity/TalismanPowerEntity.class
+  net/talisman/talismanjackiechan/init/
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModBlocks.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModEntities.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModEntityRenderers.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModItems.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModModels.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModSounds.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModTabs.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModTrades.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModVillagerProfessions$ProfessionPoiType.class
+  net/talisman/talismanjackiechan/init/TalismanJackiechanModVillagerProfessions.class
+  net/talisman/talismanjackiechan/item/
+  net/talisman/talismanjackiechan/item/BladeItem.class
+  net/talisman/talismanjackiechan/item/CastanetsItem.class
+  net/talisman/talismanjackiechan/item/ClItem.class
+  net/talisman/talismanjackiechan/item/CocoaPowderItem.class
+  net/talisman/talismanjackiechan/item/DogTalismanItem.class
+  net/talisman/talismanjackiechan/item/DragonTalismanItem.class
+  net/talisman/talismanjackiechan/item/DriedCocoaBeansItem.class
+  net/talisman/talismanjackiechan/item/FanItem$1.class
+  net/talisman/talismanjackiechan/item/FanItem.class
+  net/talisman/talismanjackiechan/item/FanPanelItem.class
+  net/talisman/talismanjackiechan/item/FlowerFromImmortalWarriorItem.class
+  net/talisman/talismanjackiechan/item/FluteItem.class
+  net/talisman/talismanjackiechan/item/ForkelSChocolateItem.class
+  net/talisman/talismanjackiechan/item/HairOfEweItem.class
+  net/talisman/talismanjackiechan/item/HorseTalismanItem.class
+  net/talisman/talismanjackiechan/item/LpItem.class
+  net/talisman/talismanjackiechan/item/LpmzItem.class
+  net/talisman/talismanjackiechan/item/MagicLizardItem.class
+  net/talisman/talismanjackiechan/item/MagicPufferfishItem.class
+  net/talisman/talismanjackiechan/item/Mask2Item$1.class
+  net/talisman/talismanjackiechan/item/Mask2Item$Helmet.class
+  net/talisman/talismanjackiechan/item/Mask2Item.class
+  net/talisman/talismanjackiechan/item/MaskItem$1.class
+  net/talisman/talismanjackiechan/item/MaskItem$Helmet.class
+  net/talisman/talismanjackiechan/item/MaskItem.class
+  net/talisman/talismanjackiechan/item/MonkeyTalismanItem.class
+  net/talisman/talismanjackiechan/item/OxTalismanItem.class
+  net/talisman/talismanjackiechan/item/PeerlessSwordItem$1.class
+  net/talisman/talismanjackiechan/item/PeerlessSwordItem.class
+  net/talisman/talismanjackiechan/item/PigTalismanItem.class
+  net/talisman/talismanjackiechan/item/PowerItem.class
+  net/talisman/talismanjackiechan/item/PufferItem.class
+  net/talisman/talismanjackiechan/item/PufferPower1Item.class
+  net/talisman/talismanjackiechan/item/RabbitTalismanItem.class
+  net/talisman/talismanjackiechan/item/RatTalismanItem.class
+  net/talisman/talismanjackiechan/item/RoosterTalismanItem.class
+  net/talisman/talismanjackiechan/item/SheepTalismanItem.class
+  net/talisman/talismanjackiechan/item/SlingItem$1.class
+  net/talisman/talismanjackiechan/item/SlingItem$Chestplate.class
+  net/talisman/talismanjackiechan/item/SlingItem.class
+  net/talisman/talismanjackiechan/item/SnakeTalismanItem.class
+  net/talisman/talismanjackiechan/item/SslpItem.class
+  net/talisman/talismanjackiechan/item/SwordHandleItem.class
+  net/talisman/talismanjackiechan/item/TigerTalismanItem.class
+  net/talisman/talismanjackiechan/item/TigerTalismanYangItem.class
+  net/talisman/talismanjackiechan/item/TigerTalismanYinItem.class
+  net/talisman/talismanjackiechan/loot/
+  net/talisman/talismanjackiechan/loot/AddItemLootModifier.class
+  net/talisman/talismanjackiechan/network/
+  net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$EventBusVariableHandlers.class
+  net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$MapVariables.class
+  net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$SavedDataSyncMessage.class
+  net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables$WorldVariables.class
+  net/talisman/talismanjackiechan/network/TalismanJackiechanModVariables.class
+  net/talisman/talismanjackiechan/procedures/
+  net/talisman/talismanjackiechan/procedures/AchmagegetProcedure.class
+  net/talisman/talismanjackiechan/procedures/DragonLaserProcedure.class
+  net/talisman/talismanjackiechan/procedures/Drum1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Flute1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Flute2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Gou2Procedure.class
+  net/talisman/talismanjackiechan/procedures/GouProcedure.class
+  net/talisman/talismanjackiechan/procedures/Hetun1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Hetun2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Hou1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Hou2Procedure.class
+  net/talisman/talismanjackiechan/procedures/HsiWu2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Hu2Procedure.class
+  net/talisman/talismanjackiechan/procedures/HuProcedure.class
+  net/talisman/talismanjackiechan/procedures/Ji1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Ji2Procedure.class
+  net/talisman/talismanjackiechan/procedures/LoPei2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Long1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Long2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Long4Procedure.class
+  net/talisman/talismanjackiechan/procedures/LpcjProcedure.class
+  net/talisman/talismanjackiechan/procedures/Ma1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Ma2Procedure.class
+  net/talisman/talismanjackiechan/procedures/Niu2Procedure.class
+  net/talisman/talismanjackiechan/procedures/NiuProcedure.class
+  net/talisman/talismanjackiechan/procedures/SheProcedure.class
+  net/talisman/talismanjackiechan/procedures/Shu1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Shu2Procedure.class
+  net/talisman/talismanjackiechan/procedures/TalismanGetProcedure.class
+  net/talisman/talismanjackiechan/procedures/Talismanall1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Tu2Procedure.class
+  net/talisman/talismanjackiechan/procedures/TuProcedure.class
+  net/talisman/talismanjackiechan/procedures/Xiyi1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Yang1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Yang2Procedure.class
+  net/talisman/talismanjackiechan/procedures/YangdingweiProcedure.class
+  net/talisman/talismanjackiechan/procedures/YindingweiProcedure.class
+  net/talisman/talismanjackiechan/procedures/Zhu1Procedure.class
+  net/talisman/talismanjackiechan/procedures/Zhu2Procedure.class
+  pack.mcmeta

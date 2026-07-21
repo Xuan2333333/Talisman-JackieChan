@@ -1,0 +1,8 @@
+{
+  "_fv": 79,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?><xml xmlns=\"https://developers.google.com/blockly/xml\"><block deletable=\"false\" type=\"event_trigger\" x=\"492\" y=\"177\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"entity_add_potion\"><field name=\"potion\">INVISIBILITY</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">600</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"/></value><next><block type=\"item_cooldown_for\"><value name=\"entity\"><block type=\"entity_from_deps\"/></value><value name=\"item\"><block type=\"itemstack_to_mcitem\"/></value><value name=\"ticks\"><block type=\"math_number\"><field name=\"NUM\">100</field></block></value></block></next></block></next></block></xml>",
+    "skipDependencyNullCheck": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "talisman_jackiechan:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:archaeology/desert_pyramid"
+    }
+  ],
+  "item": "talisman_jackiechan:lo_pei_statue",
+  "chance": 0.08
+}

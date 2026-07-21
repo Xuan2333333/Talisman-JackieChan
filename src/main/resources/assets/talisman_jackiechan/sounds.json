@@ -1,0 +1,18 @@
+{
+  "dizi1": {
+    "sounds": [
+      {
+        "name": "talisman_jackiechan:yin_pin_-2miao_",
+        "stream": false
+      }
+    ]
+  },
+  "dizi2": {
+    "sounds": [
+      {
+        "name": "talisman_jackiechan:yin_pin_-5miao_",
+        "stream": false
+      }
+    ]
+  }
+}

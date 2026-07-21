@@ -1,0 +1,75 @@
+plugins {
+    id 'eclipse'
+    id 'net.neoforged.moddev.legacyforge' version '2.0.115'
+}
+
+version = '1.1.7'
+base.archivesName = "talisman-jackiechan"
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+
+legacyForge {
+    version = "1.20.1-47.4.10"
+
+    runs {
+        client {
+            client()
+
+            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
+            if (mcreatorJvmOptions) {
+                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
+                    jvmArgument(arg)
+                }
+            }
+        }
+        server {
+            server()
+        }
+
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        mcreator {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+// ==================== 新增部分 ====================
+repositories {
+    maven { url = "https://maven.theillusivec4.top/" }   // Curios 官方 Maven 仓库
+    maven { url = "https://www.cursemaven.com" }         // CurseMaven 备用
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    //implementation(jarJar("io.github.llamalad7:mixinextras-neoforge:0.5.0"))
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+    implementation "top.theillusivec4.curios:curios-forge:5.14.1+1.20.1"
+}
+// ====================================================
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+mixin {
+    if (file("src/main/resources/talisman_jackiechan.mixins.json").exists()) {
+        add sourceSets.main, "talisman_jackiechan.refmap.json"
+        config "talisman_jackiechan.mixins.json"
+    }
+}
+
+jar {
+    if (file("src/main/resources/talisman_jackiechan.mixins.json").exists()) {
+        manifest.attributes([
+                "MixinConfigs": "talisman_jackiechan.mixins.json"
+        ])
+    }
+}

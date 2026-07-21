@@ -1,0 +1,11 @@
+{
+  "type": "talisman_jackiechan:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/jungle_temple"
+    }
+  ],
+  "item": "talisman_jackiechan:snake_talisman",
+  "chance": 0.52
+}

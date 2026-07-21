@@ -1,0 +1,7 @@
+{
+  "parent": "talisman_jackiechan:custom/baojian",
+  "textures": {
+    "0": "talisman_jackiechan:block/j2",
+    "particle": "talisman_jackiechan:item/j2"
+  }
+}

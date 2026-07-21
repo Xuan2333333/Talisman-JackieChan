@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "talisman_jackiechan:cl"
+    },
+    "title": {
+      "translate": "advancements.talisman.title"
+    },
+    "description": {
+      "translate": "advancements.talisman.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "talisman_0": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

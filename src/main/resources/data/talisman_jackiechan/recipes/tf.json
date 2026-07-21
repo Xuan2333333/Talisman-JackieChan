@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "talisman_jackiechan:hair_of_ewe"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    }
+  ],
+  "result": {
+    "item": "talisman_jackiechan:flower_from_immortal_warrior",
+    "count": 1
+  }
+}

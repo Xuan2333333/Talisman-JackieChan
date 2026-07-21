@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+
+license="GNU General Public License version 3 (GPLv3)"
+
+[[mods]]
+modId="talisman_jackiechan"
+version="1.1.7"
+displayName="Talisman JackieChan"
+displayURL="https://m.bilibili.com/space/482395883"
+logoFile= "long.png"
+credits="Jackie Chan Adventures"
+authors="Xuan"
+description="12 talismans from Jackie Chan Adventures"
+
+[[dependencies.talisman_jackiechan]]
+modId="curios"
+mandatory=true
+versionRange="[5.0.0,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.talisman_jackiechan]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="AFTER"
+side="BOTH"
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
