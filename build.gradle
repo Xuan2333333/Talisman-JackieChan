@@ -10,50 +10,22 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 legacyForge {
     version = "1.20.1-47.4.10"
-
-    runs {
-        client {
-            client()
-
-            def mcreatorJvmOptions = System.getenv('MCREATOR_JVM_OPTIONS')
-            if (mcreatorJvmOptions) {
-                mcreatorJvmOptions.split("\\s+").findAll { it.trim() }.each { arg ->
-                    jvmArgument(arg)
-                }
-            }
-        }
-        server {
-            server()
-        }
-
-        configureEach {
-            systemProperty 'forge.logging.markers', 'REGISTRIES'
-            logLevel = org.slf4j.event.Level.DEBUG
-        }
-    }
-
-    mods {
-        mcreator {
-            sourceSet sourceSets.main
-        }
-    }
 }
 
-// ==================== 新增部分 ====================
+
 repositories {
-    maven { url = "https://maven.theillusivec4.top/" }   // Curios 官方 Maven 仓库
-    maven { url = "https://www.cursemaven.com" }         // CurseMaven 备用
+    maven { url = "https://maven.theillusivec4.top/" }
+    maven { url = "https://www.cursemaven.com" }
     flatDir {
         dirs 'libs'
     }
 }
 
 dependencies {
-    //implementation(jarJar("io.github.llamalad7:mixinextras-neoforge:0.5.0"))
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
     implementation "top.theillusivec4.curios:curios-forge:5.14.1+1.20.1"
 }
-// ====================================================
+
 
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8'
