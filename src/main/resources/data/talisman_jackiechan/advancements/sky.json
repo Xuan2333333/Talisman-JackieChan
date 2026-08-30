@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "talisman_jackiechan:flute"
+    },
+    "title": {
+      "translate": "advancements.sky.title"
+    },
+    "description": {
+      "translate": "advancements.sky.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "sky_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "talisman_jackiechan:talisman"
+}

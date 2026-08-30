@@ -1,0 +1,9 @@
+{
+  "parent": "talisman_jackiechan:custom/lianhua",
+  "textures": {
+    "all": "talisman_jackiechan:block/lh",
+    "particle": "talisman_jackiechan:block/lh",
+    "0": "talisman_jackiechan:block/lh"
+  },
+  "render_type": "solid"
+}

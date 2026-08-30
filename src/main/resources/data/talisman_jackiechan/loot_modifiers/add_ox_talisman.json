@@ -1,0 +1,11 @@
+{
+  "type": "talisman_jackiechan:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/abandoned_mineshaft"
+    }
+  ],
+  "item": "talisman_jackiechan:ox_talisman",
+  "chance": 0.20
+}

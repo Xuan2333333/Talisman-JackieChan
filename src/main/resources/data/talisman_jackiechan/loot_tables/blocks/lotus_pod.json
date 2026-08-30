@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "talisman_jackiechan:blocks/lotus_pod",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "talisman_jackiechan:lotus_pod"
+        }
+      ]
+    }
+  ]
+}
