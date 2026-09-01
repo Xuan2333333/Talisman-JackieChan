@@ -4,6 +4,12 @@
   "package": "net.talisman.talismanjackiechan.mixin",
   "compatibilityLevel": "JAVA_17",
   "refmap": "talisman_jackiechan.refmap.json",
+  "mixins": [
+    "WalkAnimationStateAccessor",
+    "EntityAccessor",
+    "RabbitAccessor",
+    "MixinPlayerMorphSize"
+  ],
   "client": [
     "MixinClientPlayerEntity",
     "MixinGameRenderer",
@@ -12,7 +18,9 @@
     "MixinMouseHandlerScroll",
     "MixinMinecraftAttack",
     "MixinMinecraftPigLaser",
-    "MixinMinecraftRooster"
+    "MixinMinecraftRooster",
+    "MixinMinecraftMonkey",
+    "MixinPlayerRendererMorphArm"
   ],
   "injectors": {
     "defaultRequire": 1

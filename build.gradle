@@ -3,7 +3,7 @@ plugins {
     id 'net.neoforged.moddev.legacyforge' version '2.0.115'
 }
 
-version = '1.1.11'
+version = '1.1.12'
 base.archivesName = "talisman-jackiechan"
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)

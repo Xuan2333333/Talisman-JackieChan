@@ -44,8 +44,19 @@ public class NetworkHandler {
         INSTANCE.registerMessage(messageID++, RoosterControlPacket.class,
                 RoosterControlPacket::encode,
                 RoosterControlPacket::decode,
-                RoosterControlPacket::handle
-        );
+                RoosterControlPacket::handle);
+        INSTANCE.registerMessage(messageID++, MonkeyTransformPacket.class,
+                MonkeyTransformPacket::encode,
+                MonkeyTransformPacket::decode,
+                MonkeyTransformPacket::handle);
+        INSTANCE.registerMessage(messageID++, HouMorphSyncPacket.class,
+                HouMorphSyncPacket::encode,
+                HouMorphSyncPacket::decode,
+                HouMorphSyncPacket::handle);
+        INSTANCE.registerMessage(messageID++, TalismanUsePacket.class,
+                TalismanUsePacket::encode,
+                TalismanUsePacket::decode,
+                TalismanUsePacket::handle);
         MinecraftForge.EVENT_BUS.register(ServerTickHandler.class);
     }
 

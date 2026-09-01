@@ -27,16 +27,26 @@ public class RoosterControlHandler {
     public static final float MAX_DISTANCE = 72.0F;
 
     private static final Map<UUID, ControlData> ACTIVE = new ConcurrentHashMap<>();
-
     private static final Map<UUID, ChunkPos> FORCE_TICKETS = new ConcurrentHashMap<>();
-
     private static final int FORCE_RADIUS = 1;
 
     public static void startOrUpdate(ServerPlayer player, UUID targetUUID, float distance) {
+        startOrUpdate(player, targetUUID, distance, false);
+    }
+
+    public static void startOrUpdate(ServerPlayer player, UUID targetUUID, float distance, boolean fromHotkey) {
         if (player == null || targetUUID == null) {
             return;
         }
-        if (!(player.getMainHandItem().getItem() instanceof RoosterTalismanItem)) {
+
+        boolean allowed;
+        if (fromHotkey) {
+            allowed = RoosterTalismanItem.hasRoosterTalisman(player);
+        } else {
+            allowed = player.getMainHandItem().getItem() instanceof RoosterTalismanItem;
+        }
+
+        if (!allowed) {
             return;
         }
 
@@ -52,13 +62,14 @@ public class RoosterControlHandler {
 
         ControlData existing = ACTIVE.get(player.getUUID());
         if (existing == null) {
-            ACTIVE.put(player.getUUID(), new ControlData(targetUUID, distance));
+            ACTIVE.put(player.getUUID(), new ControlData(targetUUID, distance, fromHotkey));
             if (target instanceof Mob mob) {
                 mob.setNoAi(true);
             }
             maintainForceLoad(player, target);
         } else if (existing.targetUUID.equals(targetUUID)) {
             existing.distance = distance;
+            existing.fromHotkey = fromHotkey;
         }
     }
 
@@ -89,8 +100,16 @@ public class RoosterControlHandler {
 
             ServerPlayer player = server.getPlayerList().getPlayer(playerId);
 
-            if (player == null
-                    || !(player.getMainHandItem().getItem() instanceof RoosterTalismanItem)) {
+            boolean stillAllowed = false;
+            if (player != null) {
+                if (data.fromHotkey) {
+                    stillAllowed = RoosterTalismanItem.hasRoosterTalisman(player);
+                } else {
+                    stillAllowed = player.getMainHandItem().getItem() instanceof RoosterTalismanItem;
+                }
+            }
+
+            if (player == null || !stillAllowed) {
                 if (player != null) {
                     Entity t = player.serverLevel().getEntity(data.targetUUID);
                     restoreAi(t);
@@ -232,10 +251,12 @@ public class RoosterControlHandler {
     private static class ControlData {
         final UUID targetUUID;
         float distance;
+        boolean fromHotkey;
 
-        ControlData(UUID targetUUID, float distance) {
+        ControlData(UUID targetUUID, float distance, boolean fromHotkey) {
             this.targetUUID = targetUUID;
             this.distance = distance;
+            this.fromHotkey = fromHotkey;
         }
     }
 }

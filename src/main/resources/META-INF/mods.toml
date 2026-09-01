@@ -5,7 +5,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="talisman_jackiechan"
-version="1.1.11"
+version="1.1.12"
 displayName="Talisman JackieChan"
 displayURL="https://modrinth.com/mod/talisman-jackiechan"
 logoFile= "long.png"

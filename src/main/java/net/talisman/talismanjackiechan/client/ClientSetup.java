@@ -9,6 +9,7 @@ import net.talisman.talismanjackiechan.TalismanJackiechanMod;
 import net.talisman.talismanjackiechan.client.renderer.EvilselfRenderer;
 import net.talisman.talismanjackiechan.init.TalismanJackiechanModEntities;
 
+
 @Mod.EventBusSubscriber(modid = TalismanJackiechanMod.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientSetup {
     @SubscribeEvent
@@ -19,5 +20,9 @@ public class ClientSetup {
 
         PigLaserInputHandler.init();
         RoosterControlInputHandler.init();
+        MonkeyTalismanInputHandler.init();
+        HouMorphClient.init();
+        TalismanHotkeyHandler.init();
+        TalismanSelectOverlay.init();
     }
 }

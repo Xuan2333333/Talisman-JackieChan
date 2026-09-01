@@ -142,5 +142,10 @@
   "message.talisman_jackiechan.pair_not_found": "Paired talisman not found",
   "message.talisman_jackiechan.pair_different_dimension": "Paired talisman is in another dimension",
   "message.talisman_jackiechan.pair_distance": "distance: %s ",
-  "entity.talisman_jackiechan.evilself.name": "%s's Shadow"
+  "entity.talisman_jackiechan.evilself.name": "%s's Shadow",
+  "key.categories.talisman_jackiechan": "Talisman",
+  "key.talisman_jackiechan.talisman_select": "Talisman Select / Use",
+  "gui.talisman_jackiechan.select_tip": "Scroll to switch | Release to confirm",
+  "gui.talisman_jackiechan.selected": "Selected: %s",
+  "gui.talisman_jackiechan.rooster_distance": "Control Distance: %s"
 }

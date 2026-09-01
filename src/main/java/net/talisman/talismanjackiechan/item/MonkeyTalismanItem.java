@@ -1,21 +1,22 @@
 package net.talisman.talismanjackiechan.item;
 
-import net.talisman.talismanjackiechan.procedures.Hou2Procedure;
-import net.talisman.talismanjackiechan.procedures.Hou1Procedure;
-import net.talisman.talismanjackiechan.network.TalismanJackiechanModVariables;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResultHolder;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
+import net.talisman.talismanjackiechan.network.TalismanJackiechanModVariables;
+import net.talisman.talismanjackiechan.procedures.Hou2Procedure;
+
 import java.util.List;
 
 public class MonkeyTalismanItem extends Item {
+
 	public MonkeyTalismanItem() {
 		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
@@ -33,8 +34,10 @@ public class MonkeyTalismanItem extends Item {
 
 		double hou = TalismanJackiechanModVariables.WorldVariables.get(world).hou;
 		entity.displayClientMessage(
-				Component.translatable("message.talisman_jackiechan.monkey_mode",
-						Component.translatable(getAnimalTranslationKey((int) hou))),
+				Component.translatable(
+						"message.talisman_jackiechan.monkey_mode",
+						Component.translatable(getAnimalTranslationKey((int) hou))
+				),
 				true
 		);
 		return ar;
@@ -50,6 +53,7 @@ public class MonkeyTalismanItem extends Item {
 			case 6 -> "entity.minecraft.sheep";
 			case 7 -> "entity.minecraft.chicken";
 			case 8 -> "entity.minecraft.wolf";
+			case 9 -> "entity.minecraft.fox";
 			case 10 -> "entity.minecraft.cat";
 			case 11 -> "entity.minecraft.cod";
 			case 12 -> "entity.minecraft.dolphin";
@@ -57,15 +61,15 @@ public class MonkeyTalismanItem extends Item {
 			case 14 -> "entity.minecraft.parrot";
 			case 15 -> "entity.minecraft.bee";
 			case 16 -> "entity.minecraft.frog";
-			case 17 -> "message.talisman_jackiechan.monkey_restore_mode";
+			case 17 -> "entity.minecraft.salmon";
+			case 18 -> "entity.minecraft.rabbit";
 			default -> "message.talisman_jackiechan.monkey_unknown";
 		};
 	}
 
+
 	@Override
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
-		boolean retval = super.hurtEnemy(itemstack, entity, sourceentity);
-		Hou1Procedure.execute(entity.level(), entity.getX(), entity.getY(), entity.getZ(), entity);
-		return retval;
+		return super.hurtEnemy(itemstack, entity, sourceentity);
 	}
 }

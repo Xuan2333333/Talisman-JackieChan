@@ -112,7 +112,7 @@ public class TalismanJackiechanMod {
 		if (!hasSling && net.minecraftforge.fml.ModList.get().isLoaded("curios")) {
 			hasSling = CuriosApi.getCuriosHelper().getCuriosHandler(player)
 					.map(handler -> {
-						for (String slot : new String[]{"talisman", "shoulder"}) {
+						for (String slot : new String[]{"tjc_talisman", "tjc_shoulder"}) {
 							var stacksHandler = handler.getStacksHandler(slot);
 							if (stacksHandler.isPresent()) {
 								for (int i = 0; i < stacksHandler.get().getSlots(); i++) {

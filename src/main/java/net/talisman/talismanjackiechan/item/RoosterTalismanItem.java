@@ -1,11 +1,11 @@
 package net.talisman.talismanjackiechan.item;
 
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -21,10 +21,13 @@ import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.type.capability.ICurioItem;
 import top.theillusivec4.curios.api.type.capability.ICuriosItemHandler;
 import top.theillusivec4.curios.api.type.inventory.ICurioStacksHandler;
+import net.talisman.talismanjackiechan.procedures.Hou1Procedure;
 
 import java.util.List;
 
 public class RoosterTalismanItem extends Item implements ICurioItem {
+
+	public static final String TAG_GRANTED_MAYFLY = "talisman_granted_mayfly";
 
 	public RoosterTalismanItem() {
 		super(new Item.Properties().stacksTo(1).durability(0).rarity(Rarity.EPIC));
@@ -72,39 +75,52 @@ public class RoosterTalismanItem extends Item implements ICurioItem {
 		if (player.level().isClientSide()) {
 			return;
 		}
-		if (player.gameMode.getGameModeForPlayer() == GameType.CREATIVE ||
-				player.gameMode.getGameModeForPlayer() == GameType.SPECTATOR) {
+		if (player.gameMode.getGameModeForPlayer() == GameType.CREATIVE
+				|| player.gameMode.getGameModeForPlayer() == GameType.SPECTATOR) {
 			return;
 		}
 
-		boolean hasRooster = hasRoosterTalisman(player);
-		if (player.getAbilities().mayfly != hasRooster) {
-			player.getAbilities().mayfly = hasRooster;
-			if (!hasRooster && player.getAbilities().flying) {
-				player.getAbilities().flying = false;
+		boolean morphFly = Hou1Procedure.isPlayerTransformed(player)
+				&& Hou1Procedure.canFlyForm(Hou1Procedure.getPlayerForm(player));
+		boolean shouldGrant = hasRoosterTalisman(player) || morphFly;
+
+		CompoundTag data = player.getPersistentData();
+
+		if (shouldGrant) {
+			if (!player.getAbilities().mayfly) {
+				player.getAbilities().mayfly = true;
+				player.onUpdateAbilities();
 			}
+			data.putBoolean(TAG_GRANTED_MAYFLY, true);
+			return;
+		}
+
+		if (!data.getBoolean(TAG_GRANTED_MAYFLY)) {
+			return;
+		}
+
+		data.remove(TAG_GRANTED_MAYFLY);
+		if (player.getAbilities().mayfly) {
+			player.getAbilities().mayfly = false;
+			player.getAbilities().flying = false;
 			player.onUpdateAbilities();
 		}
 	}
 
-	private static boolean hasRoosterTalisman(@NotNull ServerPlayer player) {
-
+	public static boolean hasRoosterTalisman(@NotNull ServerPlayer player) {
 		for (ItemStack stack : player.getInventory().armor) {
 			if (stack.getItem() instanceof RoosterTalismanItem) {
 				return true;
 			}
 		}
-
 		for (ItemStack stack : player.getInventory().items) {
 			if (stack.getItem() instanceof RoosterTalismanItem) {
 				return true;
 			}
 		}
-
 		if (player.getOffhandItem().getItem() instanceof RoosterTalismanItem) {
 			return true;
 		}
-
 		if (ModList.get().isLoaded("curios")) {
 			LazyOptional<ICuriosItemHandler> opt = CuriosApi.getCuriosHelper().getCuriosHandler(player);
 			if (opt.isPresent()) {
