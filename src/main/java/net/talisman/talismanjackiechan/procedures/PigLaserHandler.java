@@ -25,17 +25,18 @@ public class PigLaserHandler {
         if (player.level().isClientSide()) return;
 
         Vec3 eyePos = player.getEyePosition(1.0f);
-
         Vec3 look = player.getLookAngle();
-        Vec3 right = new Vec3(-look.z, 0, look.x).normalize();
+        Vec3 right = new Vec3(-look.z, 0, look.x);
+        if (right.lengthSqr() > 1.0E-6) {
+            right = right.normalize();
+        } else {
+            right = new Vec3(1, 0, 0);
+        }
 
         double offsetAmount = 0.2;
-        Vec3 spawnPos;
-        if (leftEye) {
-            spawnPos = eyePos.add(right.scale(-offsetAmount));
-        } else {
-            spawnPos = eyePos.add(right.scale(offsetAmount));
-        }
+        Vec3 spawnPos = eyePos
+                .add(right.scale(leftEye ? -offsetAmount : offsetAmount))
+                .add(look.scale(0.6));
 
         PigTalismanPowerEntity laser = new PigTalismanPowerEntity(
                 TalismanJackiechanModEntities.PIG_TALISMAN_POWER.get(),
@@ -49,8 +50,5 @@ public class PigLaserHandler {
         laser.setSilent(true);
         laser.setNoGravity(true);
         player.level().addFreshEntity(laser);
-
-        if (player.level() instanceof ServerLevel serverLevel) {
-        }
     }
 }

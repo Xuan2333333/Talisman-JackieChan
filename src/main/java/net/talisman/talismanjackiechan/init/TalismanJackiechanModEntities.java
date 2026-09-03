@@ -32,7 +32,7 @@ public class TalismanJackiechanModEntities {
 	public static final RegistryObject<EntityType<PufferPowerEntity>> PUFFER_POWER = register("puffer_power",
 			EntityType.Builder.<PufferPowerEntity>of(PufferPowerEntity::new, MobCategory.MISC).setCustomClientFactory(PufferPowerEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<EvilselfEntity>> EVILSELF = register("evilself",
-			EntityType.Builder.<EvilselfEntity>of(EvilselfEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EvilselfEntity::new)
+			EntityType.Builder.<EvilselfEntity>of(EvilselfEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(EvilselfEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<LoPeiEntity>> LO_PEI = register("lo_pei",

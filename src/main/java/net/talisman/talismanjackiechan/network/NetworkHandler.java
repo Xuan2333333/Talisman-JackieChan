@@ -57,6 +57,10 @@ public class NetworkHandler {
                 TalismanUsePacket::encode,
                 TalismanUsePacket::decode,
                 TalismanUsePacket::handle);
+        INSTANCE.registerMessage(messageID++, PigLaserBeamPacket.class,
+                PigLaserBeamPacket::encode,
+                PigLaserBeamPacket::decode,
+                PigLaserBeamPacket::handle);
         MinecraftForge.EVENT_BUS.register(ServerTickHandler.class);
     }
 

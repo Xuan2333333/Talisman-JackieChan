@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 public class TalismanUsePacket {
 
     public enum Type {
-        RABBIT, SNAKE, HORSE_SELF, HORSE_TARGET, SHEEP, ROOSTER_TOGGLE, PIG
+        RABBIT, RABBIT_OFF, SNAKE, HORSE_SELF, HORSE_TARGET, SHEEP, ROOSTER_TOGGLE, PIG
     }
 
     private final Type type;
@@ -46,6 +46,14 @@ public class TalismanUsePacket {
                         Tu2Procedure.execute(player.level());
                     }
                 }
+                case RABBIT_OFF -> {
+                    if (hasTalisman(player, RabbitTalismanItem.class)) {
+                        TalismanJackiechanModVariables.WorldVariables vars =
+                                TalismanJackiechanModVariables.WorldVariables.get(player.level());
+                        vars.tu = 0;
+                        vars.syncData(player.level());
+                    }
+                }
                 case SNAKE -> {
                     if (hasTalisman(player, SnakeTalismanItem.class)) {
                         SheProcedure.execute(player, ItemStack.EMPTY);
@@ -65,7 +73,6 @@ public class TalismanUsePacket {
                     }
                 }
                 case ROOSTER_TOGGLE -> {
-                    // 鸡符咒控制切换逻辑在客户端处理更合适，这里预留
                 }
                 case PIG -> {
                     if (hasTalisman(player, PigTalismanItem.class)) {
@@ -80,18 +87,14 @@ public class TalismanUsePacket {
     }
 
     private static boolean hasTalisman(ServerPlayer player, Class<? extends Item> clazz) {
-        // 盔甲
         for (ItemStack stack : player.getInventory().armor) {
             if (clazz.isInstance(stack.getItem())) return true;
         }
-        // 背包+快捷栏
         for (ItemStack stack : player.getInventory().items) {
             if (clazz.isInstance(stack.getItem())) return true;
         }
-        // 副手
         if (clazz.isInstance(player.getOffhandItem().getItem())) return true;
 
-        // Curios
         if (net.minecraftforge.fml.ModList.get().isLoaded("curios")) {
             return top.theillusivec4.curios.api.CuriosApi.getCuriosHelper()
                     .getCuriosHandler(player)

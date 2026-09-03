@@ -133,6 +133,11 @@ public class EvilselfEntity extends Monster {
 	}
 
 	@Override
+	public boolean shouldDespawnInPeaceful() {
+		return false;
+	}
+
+	@Override
 	public boolean hurt(DamageSource damagesource, float amount) {
 		if (damagesource.is(DamageTypes.CACTUS))
 			return false;

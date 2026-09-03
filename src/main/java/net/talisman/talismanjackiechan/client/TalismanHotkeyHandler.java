@@ -18,6 +18,7 @@ import net.minecraftforge.fml.ModList;
 import net.talisman.talismanjackiechan.init.TalismanJackiechanModItems;
 import net.talisman.talismanjackiechan.item.*;
 import net.talisman.talismanjackiechan.network.NetworkHandler;
+import net.talisman.talismanjackiechan.network.PigLaserBeamPacket;
 import net.talisman.talismanjackiechan.network.RoosterControlPacket;
 import net.talisman.talismanjackiechan.network.TalismanUsePacket;
 import net.talisman.talismanjackiechan.procedures.RoosterControlHandler;
@@ -205,8 +206,15 @@ public class TalismanHotkeyHandler {
         if (player == null) return;
 
         switch (sel) {
-            case RABBIT -> NetworkHandler.INSTANCE.sendToServer(
-                    new TalismanUsePacket(TalismanUsePacket.Type.RABBIT));
+            case RABBIT -> {
+                if (player.isShiftKeyDown()) {
+                    NetworkHandler.INSTANCE.sendToServer(
+                            new TalismanUsePacket(TalismanUsePacket.Type.RABBIT_OFF));
+                } else {
+                    NetworkHandler.INSTANCE.sendToServer(
+                            new TalismanUsePacket(TalismanUsePacket.Type.RABBIT));
+                }
+            }
 
             case SNAKE -> NetworkHandler.INSTANCE.sendToServer(
                     new TalismanUsePacket(TalismanUsePacket.Type.SNAKE));
@@ -225,20 +233,26 @@ public class TalismanHotkeyHandler {
 
             case ROOSTER -> toggleRoosterControl(mc);
 
-            case PIG -> NetworkHandler.INSTANCE.sendToServer(
-                    new TalismanUsePacket(TalismanUsePacket.Type.PIG));
+            case PIG -> {
+                NetworkHandler.INSTANCE.sendToServer(
+                        new TalismanUsePacket(TalismanUsePacket.Type.PIG));
+                if (mc.player != null) {
+                    java.util.UUID id = mc.player.getUUID();
+                    PigLaserBeamClient.pulse(id, true, true);
+                    NetworkHandler.INSTANCE.sendToServer(
+                            new PigLaserBeamPacket(id, true, true));
+                }
+            }
         }
     }
 
     private static void toggleRoosterControl(Minecraft mc) {
         if (roosterControlling) {
-            // 取消锁定（fromHotkey = true）
             NetworkHandler.INSTANCE.sendToServer(
                     new RoosterControlPacket(null, 0, false, true));
             roosterControlling = false;
             roosterTarget = null;
         } else {
-            // 锁定准星生物（fromHotkey = true）
             HitResult hit = mc.hitResult;
             if (hit != null && hit.getType() == HitResult.Type.ENTITY) {
                 Entity target = ((EntityHitResult) hit).getEntity();

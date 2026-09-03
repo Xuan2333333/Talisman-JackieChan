@@ -24,5 +24,6 @@ public class ClientSetup {
         HouMorphClient.init();
         TalismanHotkeyHandler.init();
         TalismanSelectOverlay.init();
+        PigLaserBeamClient.init();
     }
 }

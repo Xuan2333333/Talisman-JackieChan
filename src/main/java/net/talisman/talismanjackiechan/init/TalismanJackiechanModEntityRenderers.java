@@ -26,5 +26,6 @@ public class TalismanJackiechanModEntityRenderers {
 		event.registerEntityRenderer(TalismanJackiechanModEntities.LO_PEI.get(), LoPeiRenderer::new);
 		event.registerEntityRenderer(TalismanJackiechanModEntities.HSI_WU.get(), HsiWuRenderer::new);
 		event.registerEntityRenderer(TalismanJackiechanModEntities.SHENDU.get(), ShenduRenderer::new);
+		//event.registerEntityRenderer(TalismanJackiechanModEntities.PIG_TALISMAN_POWER.get(), PigTalismanPowerRenderer::new);
 	}
 }

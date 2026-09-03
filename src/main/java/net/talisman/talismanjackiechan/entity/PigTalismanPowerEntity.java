@@ -8,13 +8,16 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.EntityHitResult;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.network.NetworkHooks;
@@ -66,25 +69,44 @@ public class PigTalismanPowerEntity extends AbstractArrow implements net.minecra
 	}
 
 	@Override
+	protected boolean canHitEntity(Entity entity) {
+		if (entity == this.getOwner()) {
+			return false;
+		}
+		return super.canHitEntity(entity);
+	}
+
+	@Override
 	protected void onHitEntity(EntityHitResult result) {
+		if (this.level().isClientSide()) return;
+		if (result.getEntity() == this.getOwner()) return;
+
+		DamageSource chiMagic = new DamageSource(
+				this.level().registryAccess()
+						.registryOrThrow(Registries.DAMAGE_TYPE)
+						.getHolderOrThrow(ResourceKey.create(
+								Registries.DAMAGE_TYPE,
+								new ResourceLocation("talisman_jackiechan", "chi_magic"))),
+				this,
+				this.getOwner()
+		);
+
+		if (result.getEntity() instanceof LivingEntity target) {
+			target.hurt(chiMagic, (float) this.getBaseDamage());
+			target.setArrowCount(Math.max(0, target.getArrowCount() - 1));
+			target.setSecondsOnFire(3);
+		}
+
+		Vec3 hit = result.getLocation();
+		spawnHitParticles(hit.x, hit.y, hit.z);
+		this.discard();
+	}
+
+	@Override
+	protected void onHitBlock(BlockHitResult result) {
 		if (!this.level().isClientSide()) {
-			if (result.getEntity() == this.getOwner()) {
-				return;
-			}
-
-			DamageSource chiMagic = new DamageSource(
-					this.level().registryAccess()
-							.registryOrThrow(Registries.DAMAGE_TYPE)
-							.getHolderOrThrow(ResourceKey.create(Registries.DAMAGE_TYPE, new ResourceLocation("talisman_jackiechan", "chi_magic"))),
-					this,
-					this.getOwner()
-			);
-
-			if (result.getEntity() instanceof LivingEntity target) {
-				target.hurt(chiMagic, (float) this.getBaseDamage());
-				target.setArrowCount(target.getArrowCount() - 1);
-			}
-			this.spawnHitParticles();
+			Vec3 hit = result.getLocation();
+			spawnHitParticles(hit.x, hit.y, hit.z);
 			this.discard();
 		}
 	}
@@ -94,63 +116,33 @@ public class PigTalismanPowerEntity extends AbstractArrow implements net.minecra
 		super.tick();
 		this.setNoGravity(true);
 
-
-		if (!this.level().isClientSide()) {
-			if (this.level() instanceof ServerLevel serverLevel) {
-				double prevX = this.xOld;
-				double prevY = this.yOld;
-				double prevZ = this.zOld;
-				double currX = this.getX();
-				double currY = this.getY();
-				double currZ = this.getZ();
-				double dx = currX - prevX;
-				double dy = currY - prevY;
-				double dz = currZ - prevZ;
-				double distance = Math.sqrt(dx * dx + dy * dy + dz * dz);
-
-				int particleCount = Math.max(1, (int) Math.ceil(distance / 0.2));
-
-
-				for (int i = 0; i < particleCount; i++) {
-					double t = (i + 1) / (double) particleCount;
-					double px = prevX + dx * t;
-					double py = prevY + dy * t;
-					double pz = prevZ + dz * t;
-
-					serverLevel.sendParticles(
-							ParticleTypes.FLAME,
-							px, py, pz,
-							1,
-							0.0, 0.0, 0.0,
-							0.1
-					);
-				}
-			}
+		if (this.tickCount < 2) {
+			return;
 		}
 
 		if (this.inGround) {
-			this.spawnHitParticles();
+			spawnHitParticles(this.getX(), this.getY(), this.getZ());
+			this.discard();
+			return;
+		}
+
+		if (this.tickCount > 40) {
 			this.discard();
 		}
 	}
 
-	private void spawnHitParticles() {
-		if (!this.level().isClientSide()) {
-			if (this.level() instanceof ServerLevel serverLevel) {
-				for (int i = 0; i < 12; i++) {
-					serverLevel.sendParticles(
-							ParticleTypes.FLAME,
-							this.getX(),
-							this.getY(),
-							this.getZ(),
-							1,
-							(this.random.nextDouble() - 0.5) * 0.8,
-							(this.random.nextDouble() - 0.5) * 0.8,
-							(this.random.nextDouble() - 0.5) * 0.8,
-							0.5
-					);
-				}
-			}
+	private void spawnHitParticles(double x, double y, double z) {
+		if (!(this.level() instanceof ServerLevel serverLevel)) return;
+		for (int i = 0; i < 12; i++) {
+			serverLevel.sendParticles(
+					ParticleTypes.FLAME,
+					x, y, z,
+					1,
+					(this.random.nextDouble() - 0.5) * 0.5,
+					(this.random.nextDouble() - 0.5) * 0.5,
+					(this.random.nextDouble() - 0.5) * 0.5,
+					0.04
+			);
 		}
 	}
 

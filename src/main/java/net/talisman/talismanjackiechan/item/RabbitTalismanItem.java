@@ -2,14 +2,17 @@ package net.talisman.talismanjackiechan.item;
 
 import net.talisman.talismanjackiechan.procedures.TuProcedure;
 import net.talisman.talismanjackiechan.procedures.Tu2Procedure;
+import net.talisman.talismanjackiechan.network.TalismanJackiechanModVariables;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
@@ -26,10 +29,19 @@ public class RabbitTalismanItem extends Item {
 	}
 
 	@Override
-	public boolean onEntitySwing(ItemStack itemstack, LivingEntity entity) {
-		boolean retval = super.onEntitySwing(itemstack, entity);
-		Tu2Procedure.execute(entity.level());
-		return retval;
+	public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
+		ItemStack stack = player.getItemInHand(hand);
+		if (!world.isClientSide) {
+			if (player.isShiftKeyDown()) {
+				TalismanJackiechanModVariables.WorldVariables vars =
+						TalismanJackiechanModVariables.WorldVariables.get(world);
+				vars.tu = 0;
+				vars.syncData(world);
+			} else {
+				Tu2Procedure.execute(world);
+			}
+		}
+		return InteractionResultHolder.sidedSuccess(stack, world.isClientSide);
 	}
 
 	@Override
