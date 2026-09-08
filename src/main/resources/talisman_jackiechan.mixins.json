@@ -20,7 +20,8 @@
     "MixinMinecraftPigLaser",
     "MixinMinecraftRooster",
     "MixinMinecraftMonkey",
-    "MixinPlayerRendererMorphArm"
+    "MixinPlayerRendererMorphArm",
+    "MixinMinecraftChiBeam"
   ],
   "injectors": {
     "defaultRequire": 1

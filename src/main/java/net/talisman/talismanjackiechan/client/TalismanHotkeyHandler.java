@@ -48,7 +48,7 @@ public class TalismanHotkeyHandler {
 
     private static boolean holding = false;
     private static int holdTicks = 0;
-    private static final int HOLD_THRESHOLD = 20; // 约 1 秒
+    private static final int HOLD_THRESHOLD = 20;
 
     private static final List<Selectable> available = new ArrayList<>();
     private static int selectedIndex = 0;
@@ -234,14 +234,7 @@ public class TalismanHotkeyHandler {
             case ROOSTER -> toggleRoosterControl(mc);
 
             case PIG -> {
-                NetworkHandler.INSTANCE.sendToServer(
-                        new TalismanUsePacket(TalismanUsePacket.Type.PIG));
-                if (mc.player != null) {
-                    java.util.UUID id = mc.player.getUUID();
-                    PigLaserBeamClient.pulse(id, true, true);
-                    NetworkHandler.INSTANCE.sendToServer(
-                            new PigLaserBeamPacket(id, true, true));
-                }
+                PigLaserInputHandler.toggleContinuous();
             }
         }
     }

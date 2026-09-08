@@ -25,5 +25,7 @@ public class ClientSetup {
         TalismanHotkeyHandler.init();
         TalismanSelectOverlay.init();
         PigLaserBeamClient.init();
+        ChiBeamClient.init();
+        ChiBeamInputHandler.init();
     }
 }

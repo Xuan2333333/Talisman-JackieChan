@@ -23,8 +23,28 @@ public class PigLaserInputHandler {
     private static boolean lastLeft = false;
     private static boolean lastRight = false;
 
+    private static boolean continuousActive = false;
+
     public static void init() {
         MinecraftForge.EVENT_BUS.register(PigLaserInputHandler.class);
+    }
+
+    public static void toggleContinuous() {
+        continuousActive = !continuousActive;
+        if (!continuousActive) {
+            clearBeams(true);
+        }
+    }
+
+    public static boolean isContinuousActive() {
+        return continuousActive;
+    }
+
+    public static void forceStopContinuous() {
+        if (continuousActive) {
+            continuousActive = false;
+            clearBeams(true);
+        }
     }
 
     @SubscribeEvent
@@ -33,11 +53,13 @@ public class PigLaserInputHandler {
 
         Minecraft mc = Minecraft.getInstance();
         if (mc.player == null || mc.level == null) {
+            continuousActive = false;
             clearBeams(false);
             return;
         }
 
         if (mc.screen != null) {
+            continuousActive = false;
             clearBeams(true);
             return;
         }
@@ -53,37 +75,30 @@ public class PigLaserInputHandler {
         }
 
         if (!holdingPig && !hotkeyPig) {
+            continuousActive = false;
             clearBeams(true);
+            return;
+        }
+
+        if (TalismanHotkeyHandler.isSelecting()) {
+            if (continuousActive && hotkeyPig) {
+                updateBeams(player, true, true);
+                tryShootBoth(player);
+            } else {
+                clearBeams(true);
+            }
             return;
         }
 
         if (leftCooldown > 0) leftCooldown--;
         if (rightCooldown > 0) rightCooldown--;
 
-        boolean leftDown = mc.options.keyAttack.isDown();
-        boolean rightDown = mc.options.keyUse.isDown();
-
-        if (leftDown || rightDown) {
-            PigLaserBeamClient.updateRemote(player.getUUID(), leftDown, rightDown);
-            if (leftDown != lastLeft || rightDown != lastRight) {
-                NetworkHandler.INSTANCE.sendToServer(
-                        new PigLaserBeamPacket(player.getUUID(), leftDown, rightDown));
-                lastLeft = leftDown;
-                lastRight = rightDown;
-            }
-        } else {
-            if (!PigLaserBeamClient.hasPulse(player.getUUID())) {
-                if (lastLeft || lastRight) {
-                    PigLaserBeamClient.updateRemote(player.getUUID(), false, false);
-                    NetworkHandler.INSTANCE.sendToServer(
-                            new PigLaserBeamPacket(player.getUUID(), false, false));
-                    lastLeft = false;
-                    lastRight = false;
-                }
-            }
-        }
-
         if (holdingPig) {
+            boolean leftDown = mc.options.keyAttack.isDown();
+            boolean rightDown = mc.options.keyUse.isDown();
+
+            updateBeams(player, leftDown, rightDown);
+
             if (leftDown && leftCooldown == 0) {
                 NetworkHandler.INSTANCE.sendToServer(new PigLaserPacket(player.getUUID(), true));
                 leftCooldown = COOLDOWN_TICKS;
@@ -92,6 +107,37 @@ public class PigLaserInputHandler {
                 NetworkHandler.INSTANCE.sendToServer(new PigLaserPacket(player.getUUID(), false));
                 rightCooldown = COOLDOWN_TICKS;
             }
+            return;
+        }
+
+        if (hotkeyPig && continuousActive) {
+            updateBeams(player, true, true);
+            tryShootBoth(player);
+        } else {
+            clearBeams(true);
+        }
+    }
+
+    private static void tryShootBoth(Player player) {
+        if (leftCooldown == 0) {
+            NetworkHandler.INSTANCE.sendToServer(new PigLaserPacket(player.getUUID(), true));
+            leftCooldown = COOLDOWN_TICKS;
+        }
+        if (rightCooldown == 0) {
+            NetworkHandler.INSTANCE.sendToServer(new PigLaserPacket(player.getUUID(), false));
+            rightCooldown = COOLDOWN_TICKS;
+        }
+    }
+
+    private static void updateBeams(Player player, boolean left, boolean right) {
+        if (left != lastLeft || right != lastRight) {
+            PigLaserBeamClient.updateRemote(player.getUUID(), left, right);
+            NetworkHandler.INSTANCE.sendToServer(
+                    new PigLaserBeamPacket(player.getUUID(), left, right));
+            lastLeft = left;
+            lastRight = right;
+        } else if (left || right) {
+            PigLaserBeamClient.updateRemote(player.getUUID(), left, right);
         }
     }
 

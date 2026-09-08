@@ -61,6 +61,10 @@ public class NetworkHandler {
                 PigLaserBeamPacket::encode,
                 PigLaserBeamPacket::decode,
                 PigLaserBeamPacket::handle);
+        INSTANCE.registerMessage(messageID++, ChiBeamPacket.class,
+                ChiBeamPacket::encode,
+                ChiBeamPacket::decode,
+                ChiBeamPacket::handle);
         MinecraftForge.EVENT_BUS.register(ServerTickHandler.class);
     }
 
