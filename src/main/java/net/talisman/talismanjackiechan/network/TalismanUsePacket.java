@@ -43,15 +43,46 @@ public class TalismanUsePacket {
             switch (msg.type) {
                 case RABBIT -> {
                     if (hasTalisman(player, RabbitTalismanItem.class)) {
-                        Tu2Procedure.execute(player.level());
+                        ItemStack rabbit = null;
+                        if (player.getMainHandItem().getItem() instanceof RabbitTalismanItem) {
+                            rabbit = player.getMainHandItem();
+                        } else if (player.getOffhandItem().getItem() instanceof RabbitTalismanItem) {
+                            rabbit = player.getOffhandItem();
+                        } else {
+                            for (ItemStack stack : player.getInventory().items) {
+                                if (stack.getItem() instanceof RabbitTalismanItem) {
+                                    rabbit = stack;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (rabbit != null) {
+                            int current = RabbitTalismanItem.getLevel(rabbit);
+                            int next = current >= 15 ? 0 : current + 1;
+                            RabbitTalismanItem.setLevel(rabbit, next);
+                        }
                     }
                 }
                 case RABBIT_OFF -> {
                     if (hasTalisman(player, RabbitTalismanItem.class)) {
-                        TalismanJackiechanModVariables.WorldVariables vars =
-                                TalismanJackiechanModVariables.WorldVariables.get(player.level());
-                        vars.tu = 0;
-                        vars.syncData(player.level());
+                        ItemStack rabbit = null;
+                        if (player.getMainHandItem().getItem() instanceof RabbitTalismanItem) {
+                            rabbit = player.getMainHandItem();
+                        } else if (player.getOffhandItem().getItem() instanceof RabbitTalismanItem) {
+                            rabbit = player.getOffhandItem();
+                        } else {
+                            for (ItemStack stack : player.getInventory().items) {
+                                if (stack.getItem() instanceof RabbitTalismanItem) {
+                                    rabbit = stack;
+                                    break;
+                                }
+                            }
+                        }
+
+                        if (rabbit != null) {
+                            RabbitTalismanItem.setLevel(rabbit, 0);
+                        }
                     }
                 }
                 case SNAKE -> {

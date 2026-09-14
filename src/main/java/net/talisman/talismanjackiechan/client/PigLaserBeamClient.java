@@ -171,56 +171,56 @@ public class PigLaserBeamClient {
         Vec3 start, end;
 
         if (firstPerson && player == mc.player) {
-            yaw = camera.getYRot();
-            pitch = camera.getXRot();
-            Vec3 look = Vec3.directionFromRotation(pitch, yaw);
-
-            float yawRad = yaw * ((float) Math.PI / 180.0F);
-            Vec3 right = new Vec3(-Mth.cos(yawRad), 0.0, -Mth.sin(yawRad));
-
-            double side = leftEye ? -0.10 : 0.10;
-            start = camera.getPosition().add(right.scale(side)).add(look.scale(0.05));
-
-            Vec3 endIdeal = start.add(look.scale(MAX_RANGE));
-            BlockHitResult hit = player.level().clip(new ClipContext(
-                    start,
-                    endIdeal,
-                    ClipContext.Block.COLLIDER,
-                    ClipContext.Fluid.NONE,
-                    player
-            ));
-            end = hit.getType() != HitResult.Type.MISS ? hit.getLocation() : endIdeal;
+            yaw   = player.getViewYRot(pt);
+            pitch = player.getViewXRot(pt);
         } else {
-            yaw = Mth.lerp(pt, player.yHeadRotO, player.yHeadRot);
+            yaw   = Mth.lerp(pt, player.yHeadRotO, player.yHeadRot);
             pitch = Mth.lerp(pt, player.xRotO, player.getXRot());
-            Vec3 look = Vec3.directionFromRotation(pitch, yaw);
+        }
 
-            float yawRad = yaw * ((float) Math.PI / 180.0F);
-            Vec3 right = new Vec3(-Mth.cos(yawRad), 0.0, -Mth.sin(yawRad));
+        Vec3 look = Vec3.directionFromRotation(pitch, yaw);
+        float yawRad = yaw * ((float) Math.PI / 180.0F);
+        Vec3 right = new Vec3(-Mth.cos(yawRad), 0.0, -Mth.sin(yawRad));
+        double side = leftEye ? -0.10 : 0.10;
 
-            double x = Mth.lerp(pt, player.xo, player.getX());
-            double y = Mth.lerp(pt, player.yo, player.getY()) + player.getEyeHeight();
-            double z = Mth.lerp(pt, player.zo, player.getZ());
-            Vec3 eye = new Vec3(x, y, z);
-            double side = leftEye ? -0.10 : 0.10;
+        if (firstPerson && player == mc.player) {
+            Vec3 eye = player.getEyePosition(pt);
+            Vec3 logicalStart = eye.add(right.scale(side)).add(look.scale(0.05));
+
+            Vec3 endIdeal = logicalStart.add(look.scale(MAX_RANGE));
+            BlockHitResult hit = player.level().clip(new ClipContext(
+                    logicalStart, endIdeal, ClipContext.Block.COLLIDER,
+                    ClipContext.Fluid.NONE, player));
+            Vec3 rayEnd = hit.getType() != HitResult.Type.MISS
+                    ? hit.getLocation() : endIdeal;
+
+            float walkDelta = player.walkDist - player.walkDistO;
+            float walkLerp  = -(player.walkDist + walkDelta * pt);
+            float bobLerp   = Mth.lerp(pt, player.oBob, player.bob);
+            float bobX      = Mth.sin(walkLerp * (float) Math.PI) * bobLerp * 0.5F;
+            float bobY      = -Math.abs(Mth.cos(walkLerp * (float) Math.PI) * bobLerp);
+
+            Vec3 camUp = right.cross(look).normalize();
+
+            Vec3 bobWorld = right.scale(bobX).add(camUp.scale(bobY));
+
+            start = logicalStart.subtract(bobWorld);
+            end   = rayEnd.subtract(bobWorld);
+
+        } else {
+            Vec3 eye = player.getEyePosition(pt);
             start = eye.add(right.scale(side)).add(look.scale(0.01));
 
             Vec3 endIdeal = start.add(look.scale(MAX_RANGE));
             BlockHitResult hit = player.level().clip(new ClipContext(
-                    start,
-                    endIdeal,
-                    ClipContext.Block.COLLIDER,
-                    ClipContext.Fluid.NONE,
-                    player
-            ));
+                    start, endIdeal, ClipContext.Block.COLLIDER,
+                    ClipContext.Fluid.NONE, player));
             end = hit.getType() != HitResult.Type.MISS ? hit.getLocation() : endIdeal;
         }
 
         Vec3 dir = end.subtract(start);
         double length = dir.length();
-        if (length < 0.05) {
-            return;
-        }
+        if (length < 0.05) return;
         dir = dir.normalize();
 
         poseStack.pushPose();
@@ -230,7 +230,6 @@ public class PigLaserBeamClient {
         PoseStack.Pose pose = poseStack.last();
         Matrix4f mat = pose.pose();
         Matrix3f normal = pose.normal();
-
         VertexConsumer consumer = buffer.getBuffer(RenderType.eyes(TEXTURE));
 
         float[] radii = {0.07F, 0.032F};

@@ -19,7 +19,6 @@ public class HuProcedure {
 
 		float diff = food - health;
 
-
 		if (Math.abs(diff) > 1.0F) {
 
 			if (diff > 0 && health < maxHealth) {

@@ -5,6 +5,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.util.thread.SidedThreadGroups;
+import net.minecraftforge.network.NetworkDirection;
 import net.minecraftforge.network.NetworkEvent;
 import net.minecraftforge.network.NetworkRegistry;
 import net.minecraftforge.network.simple.SimpleChannel;
@@ -18,6 +19,8 @@ import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.function.BiConsumer;
 import java.util.function.Function;
 import java.util.function.Supplier;
+
+import static net.minecraft.commands.arguments.ResourceLocationArgument.id;
 
 public class NetworkHandler {
     private static final String PROTOCOL_VERSION = "1";
@@ -65,6 +68,10 @@ public class NetworkHandler {
                 ChiBeamPacket::encode,
                 ChiBeamPacket::decode,
                 ChiBeamPacket::handle);
+        INSTANCE.registerMessage(messageID++, SetRabbitLevelPacket.class,
+                SetRabbitLevelPacket::encode,
+                SetRabbitLevelPacket::decode,
+                SetRabbitLevelPacket::handle);
         MinecraftForge.EVENT_BUS.register(ServerTickHandler.class);
     }
 

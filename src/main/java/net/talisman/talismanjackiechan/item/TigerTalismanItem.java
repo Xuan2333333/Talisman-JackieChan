@@ -15,13 +15,18 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
+import java.util.UUID;
 
 public class TigerTalismanItem extends Item {
+
+	public static final String PAIR_ID = "tiger_pair_id";
+
+	public static final UUID SPLIT_MODIFIER_UUID =
+			UUID.fromString("a1b2c3d4-0000-0000-0000-00000000abcd");
+
 	public TigerTalismanItem() {
 		super(new Item.Properties().stacksTo(1).fireResistant().rarity(Rarity.EPIC));
 	}
-
-	public static final String PAIR_ID = "tiger_pair_id";
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {

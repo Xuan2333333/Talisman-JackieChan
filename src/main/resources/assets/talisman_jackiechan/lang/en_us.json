@@ -147,5 +147,10 @@
   "key.talisman_jackiechan.talisman_select": "Talisman Select / Use",
   "gui.talisman_jackiechan.select_tip": "Scroll to switch | Release to confirm",
   "gui.talisman_jackiechan.selected": "Selected: %s",
-  "gui.talisman_jackiechan.rooster_distance": "Control Distance: %s"
+  "gui.talisman_jackiechan.rooster_distance": "Control Distance: %s",
+  "effect.talisman_jackiechan.lack_yin": "Yin Absence",
+  "effect.talisman_jackiechan.lack_yang": "Yang Deficiency",
+  "entity.talisman_jackiechan.evilself.name.yin": "%s's Yin-self",
+  "entity.talisman_jackiechan.evilself.name.yang": "%s's Yang-self",
+  "gui.talisman_jackiechan.rabbit_talisman.confirm": "Confirm"
 }

@@ -148,5 +148,10 @@
   "key.talisman_jackiechan.talisman_select": "符咒选择/使用",
   "gui.talisman_jackiechan.select_tip": "滚轮切换 | 松开确认",
   "gui.talisman_jackiechan.selected": "已选: %s",
-  "gui.talisman_jackiechan.rooster_distance": "控制距离: %s"
+  "gui.talisman_jackiechan.rooster_distance": "控制距离: %s",
+  "effect.talisman_jackiechan.lack_yin": "阴缺",
+  "effect.talisman_jackiechan.lack_yang": "阳缺",
+  "entity.talisman_jackiechan.evilself.name.yin": "%s 的阴面",
+  "entity.talisman_jackiechan.evilself.name.yang": "%s 的阳面",
+  "gui.talisman_jackiechan.rabbit_talisman.confirm": "确认"
 }
