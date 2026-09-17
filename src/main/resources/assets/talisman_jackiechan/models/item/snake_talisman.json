@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "talisman_jackiechan:item/fuzhou",
+  "gui_light": "front",
   "textures": {
-    "layer0": "talisman_jackiechan:item/she"
+    "top": "talisman_jackiechan:item/she",
+    "base": "talisman_jackiechan:item/base"
   }
 }
