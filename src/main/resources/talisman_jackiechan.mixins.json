@@ -1,0 +1,33 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.talisman.talismanjackiechan.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "talisman_jackiechan.refmap.json",
+  "mixins": [
+    "WalkAnimationStateAccessor",
+    "EntityAccessor",
+    "RabbitAccessor",
+    "MixinPlayerMorphSize",
+    "MixinSpiderClimb"
+  ],
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinGameRenderer",
+    "MixinMouseHandler",
+    "MixinMinecraft",
+    "MixinMouseHandlerScroll",
+    "MixinMinecraftAttack",
+    "MixinMinecraftPigLaser",
+    "MixinMinecraftRooster",
+    "MixinMinecraftMonkey",
+    "MixinPlayerRendererMorphArm",
+    "MixinMinecraftChiBeam",
+    "EntityRenderDispatcherMixin",
+    "KeyboardHandlerMixin",
+    "KeyMappingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

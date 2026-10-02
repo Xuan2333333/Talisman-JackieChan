@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "talisman_jackiechan:dog_talisman"
+    },
+    "title": {
+      "translate": "advancements.immortality.title"
+    },
+    "description": {
+      "translate": "advancements.immortality.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "immortality_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "talisman_jackiechan:dog_talisman"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "talisman_jackiechan:a_fly_is_flying"
+}

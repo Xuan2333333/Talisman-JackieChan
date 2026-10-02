@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:trident"
+  },
+  "base": {
+    "item": "talisman_jackiechan:driedpuffer"
+  },
+  "addition": {
+    "item": "minecraft:totem_of_undying"
+  },
+  "result": {
+    "item": "talisman_jackiechan:magic_pufferfish"
+  }
+}

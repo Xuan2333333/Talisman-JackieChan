@@ -1,0 +1,15 @@
+{
+  "name": "talisman_jackiechan:lo_pei_shrine/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "talisman_jackiechan:lo_pei_shrine",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

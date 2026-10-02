@@ -1,0 +1,6 @@
+{
+	"variants": {
+		"on_slab=false": { "model": "talisman_jackiechan:block/small_censer" },
+		"on_slab=true":  { "model": "talisman_jackiechan:block/small_censer_on_slab" }
+	}
+}

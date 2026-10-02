@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "talisman_jackiechan:blocks/gourd",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "talisman_jackiechan:gourd"
+        }
+      ]
+    }
+  ]
+}

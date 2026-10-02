@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "talisman_jackiechan:block/stone_stele" },
+    "facing=east":  { "model": "talisman_jackiechan:block/stone_stele", "y": 90 },
+    "facing=south": { "model": "talisman_jackiechan:block/stone_stele", "y": 180 },
+    "facing=west":  { "model": "talisman_jackiechan:block/stone_stele", "y": 270 }
+  }
+}

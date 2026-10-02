@@ -1,0 +1,14 @@
+{
+  "type": "talisman_jackiechan:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:ender_dragon"
+      }
+    }
+  ],
+  "item": "talisman_jackiechan:dragon_talisman",
+  "chance": 1.0
+}

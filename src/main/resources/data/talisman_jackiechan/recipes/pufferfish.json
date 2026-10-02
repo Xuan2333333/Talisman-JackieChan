@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 20,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "minecraft:pufferfish"
+  },
+  "result": "talisman_jackiechan:driedpuffer"
+}

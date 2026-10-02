@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": {
+    "item": "minecraft:nether_star"
+  },
+  "base": {
+    "item": "talisman_jackiechan:mask_helmet"
+  },
+  "addition": {
+    "item": "talisman_jackiechan:ox_talisman"
+  },
+  "result": {
+    "item": "talisman_jackiechan:mask_2_helmet"
+  }
+}

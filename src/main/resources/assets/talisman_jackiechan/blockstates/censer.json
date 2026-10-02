@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "talisman_jackiechan:block/censer" },
+    "facing=east":  { "model": "talisman_jackiechan:block/censer", "y": 90 },
+    "facing=south": { "model": "talisman_jackiechan:block/censer", "y": 180 },
+    "facing=west":  { "model": "talisman_jackiechan:block/censer", "y": 270 }
+  }
+}
