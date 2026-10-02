@@ -9,7 +9,7 @@
 build/
 out/
 bin/
-
+voxel/
 
 run/
 .minecraft/
